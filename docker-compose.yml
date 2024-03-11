@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  smarttripplanner.webapi:
+    image: ${DOCKER_REGISTRY-}smarttripplannerwebapi
+    build:
+      context: .
+      dockerfile: src/Dockerfile

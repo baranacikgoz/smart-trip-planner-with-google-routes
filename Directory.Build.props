@@ -1,0 +1,37 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference
+      Include="SonarAnalyzer.CSharp" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AnalysisMode>all</AnalysisMode>
+    <AnalysisScope>all</AnalysisScope>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzers>true</RunAnalyzers>
+    <NoWarn>
+      CA1040;
+      CA1062;
+      CA2007;
+      IDE0005;
+      CA1812;
+      S3604;
+      S4136;
+      CA1852;
+      S3267;
+      S2094;
+    </NoWarn>
+  </PropertyGroup>
+</Project>
