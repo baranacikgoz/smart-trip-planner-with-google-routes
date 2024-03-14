@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference
-      Include="SonarAnalyzer.CSharp" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="9.21.0.86780" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -32,6 +31,12 @@
       CA1852;
       S3267;
       S2094;
+      CA1034;
+      CA1716;
+      CA2234;
+      CA1848;
+      CA1032;
+      CA1724;
     </NoWarn>
   </PropertyGroup>
 </Project>
