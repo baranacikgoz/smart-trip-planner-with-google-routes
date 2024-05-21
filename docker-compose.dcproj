@@ -4,10 +4,10 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>48be8372-d539-4ff3-a421-bce6ece97dd3</ProjectGuid>
+    <ProjectGuid>aa2e7286-e37f-4f39-90c6-4500580c9684</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
-    <DockerServiceName>smarttripplanner.webapi</DockerServiceName>
+    <DockerServiceName>smarttripplanner.sample</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

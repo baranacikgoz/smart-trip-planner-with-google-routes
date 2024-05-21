@@ -2,12 +2,13 @@
   <PropertyGroup>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <LangVersion>preview</LangVersion>
+    <LangVersion>latest</LangVersion>
     <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="9.21.0.86780" />
+    <PackageReference
+      Include="SonarAnalyzer.CSharp" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -34,9 +35,15 @@
       CA1034;
       CA1716;
       CA2234;
-      CA1848;
       CA1032;
       CA1724;
+      S1075;
+      S3878;
+      CA2201;
+      S112;
+      CA1707;
+      S2743;
+      CA2008;
     </NoWarn>
   </PropertyGroup>
 </Project>
