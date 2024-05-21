@@ -42,7 +42,7 @@ public class CachedGraph<TVertexId, TEdge> : IGraph<TVertexId, TEdge>
 
     public async Task EnsureInitializedAsync()
     {
-        if (await _cache.GetAsync(_cacheKey) is null)
+        if (await _cache.GetAsync(_cacheKey, serializerOptions: _serializerOptions) is null)
         {
             await _decoree.EnsureInitializedAsync();
             await RefreshCacheAsync();

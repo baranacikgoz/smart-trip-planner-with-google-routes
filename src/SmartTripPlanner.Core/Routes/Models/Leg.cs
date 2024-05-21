@@ -6,5 +6,5 @@ public sealed record Leg(
     string StaticDuration,
     Location StartLocation,
     Location EndLocation,
-    ICollection<Step> Steps
+    IEnumerable<Step> Steps
     );

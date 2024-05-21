@@ -1,5 +1,5 @@
 using SmartTripPlanner.Core.Routes.Models;
 
-namespace SmartTripPlanner.GoogleRoutes.Responses;
+namespace SmartTripPlanner.Core.Routes.Responses;
 
 public sealed record ComputeRoutesWithIntermediateWaypointsResponse(ICollection<Leg> Legs);

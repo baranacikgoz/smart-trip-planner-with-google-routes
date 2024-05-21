@@ -38,8 +38,9 @@ public class NeighbourChargePointsGraph : IChargePointGraph
     {
         Console.WriteLine(_numberOfNeighboursPerChargePoint);
 
-        var reconstructed = new Dictionary<ChargePointBarcode, List<Way>>();
+        var previous = await _decoree.GetAdjacencyDictAsync();
+        previous.Add(new ChargePointBarcode("dummy"), []);
 
-        await _decoree.ReconstructFrom(reconstructed);
+        await _decoree.ReconstructFrom(previous);
     }
 }

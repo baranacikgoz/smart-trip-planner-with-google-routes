@@ -34,7 +34,7 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
     {
         var chargePoints = await _chargePointDataSource.GetAllAsync();
 
-        var tasks = new List<Task>(chargePoints.Count * chargePoints.Count);
+        var tasks = new List<Task<(ChargePointBarcode From, Way Edge)>>(chargePoints.Count * chargePoints.Count);
         for (var i = 0; i < chargePoints.Count; i++)
         {
             var from = chargePoints[i];
@@ -51,7 +51,12 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
             }
         }
 
-        await Task.WhenAll(tasks);
+        var results = await Task.WhenAll(tasks);
+
+        foreach (var result in results)
+        {
+            await AddEdgeAsync(result.From, result.Edge);
+        }
     }
 
     public override ValueTask ReconstructFrom(Dictionary<ChargePointBarcode, List<Way>> adjacencyDict)
@@ -60,11 +65,11 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
         return new();
     }
 
-    private async Task CalculateRouteAndAddEdgeAsync(ChargePoint from, ChargePoint to)
+    private async Task<(ChargePointBarcode From, Way Edge)> CalculateRouteAndAddEdgeAsync(ChargePoint from, ChargePoint to)
     {
         var route = await _routesService.GetRoutesAsync(new LatLng(from.Latitude, from.Longitude),
                                                         new LatLng(to.Latitude, to.Longitude));
 
-        await AddEdgeAsync(from.Barcode, new Way(to.Barcode, route.Duration, route.DistanceMeters));
+        return (from.Barcode, new Way(to.Barcode, route.Duration, route.DistanceMeters));
     }
 }

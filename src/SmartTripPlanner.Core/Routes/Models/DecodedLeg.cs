@@ -6,4 +6,4 @@ public sealed record DecodedLeg(
     TimeSpan StaticDuration,
     Location StartLocation,
     Location EndLocation,
-    ICollection<Step> Steps);
+    IEnumerable<DecodedStep> Steps);

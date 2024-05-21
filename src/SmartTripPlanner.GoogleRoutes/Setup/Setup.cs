@@ -6,6 +6,7 @@ using SmartTripPlanner.Core.Routes.Interfaces;
 using SmartTripPlanner.Core.Routes.Services;
 using SmartTripPlanner.Core.Setup;
 using SmartTripPlanner.GoogleRoutes.Constants;
+using SmartTripPlanner.GoogleRoutes.Services;
 
 namespace SmartTripPlanner.GoogleRoutes.Setup;
 public static class Setup
@@ -19,9 +20,9 @@ public static class Setup
                 .ValidateDataAnnotations()
                 .ValidateOnStart();
 
-        builder.Services.AddTransient<GoogleRoutesService>();
-        builder.Services.AddTransient<IRoutesService, GoogleRoutesService>();
-        builder.Services.AddHttpClient<IRoutesService, GoogleRoutesService>((sp, httpClient) =>
+        builder.Services.AddTransient<GoogleRoutesApiService>();
+        builder.Services.AddTransient<IRoutesApiService, GoogleRoutesApiService>();
+        builder.Services.AddHttpClient<IRoutesApiService, GoogleRoutesApiService>((sp, httpClient) =>
         {
             var googleRoutesOptions = sp.GetRequiredService<IOptions<GoogleRoutesOptions>>().Value;
 
@@ -29,8 +30,10 @@ public static class Setup
             httpClient.DefaultRequestHeaders.Add(GoogleRoutesConstants.Headers.ApiKey, googleRoutesOptions.ApiKey);
         });
 
+        builder.Services.Decorate<IRoutesApiService>((decoree, sp) => new CachedRoutesApiService(decoree, sp.GetRequiredService<ICache>()));
+
         builder.Services.AddSingleton<IPolyLineDecoder, GoogleRoutesPolylineDecoder>();
-        builder.Services.Decorate<IRoutesService>((decoree, sp) => new CachedRoutesService(decoree, sp.GetRequiredService<ICache>()));
+        builder.Services.AddTransient<IRoutesService, GoogleRoutesService>();
 
         return builder;
     }
