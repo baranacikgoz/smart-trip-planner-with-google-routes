@@ -18,11 +18,11 @@ public static class Setup
             .Services
                 .AddSingleton<IChargePointGraphCache, ChargePointGraphCache>();
 
-        builder.For<IChargePointGraph, ChargePointGraph, ChargePointBarcode, Way>()
+        builder.For<IChargePointGraph, ChargePointsGraph, ChargePointBarcode, Way>()
                .DecorateWith((decoree, sp) => new CachedChargePointGraph(
                                                 decoree,
                                                 sp.GetRequiredService<IChargePointGraphCache>(),
-                                                cacheKey: nameof(ChargePointGraph)))
+                                                cacheKey: nameof(ChargePointsGraph)))
                .DecorateWith((decoree, sp) => new NeighbourChargePointsGraph(
                                                 decoree,
                                                 numberOfNeighboursPerChargePoint: 3))

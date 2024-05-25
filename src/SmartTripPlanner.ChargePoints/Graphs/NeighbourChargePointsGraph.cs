@@ -3,7 +3,7 @@ using SmartTripPlanner.ChargePoints.Models;
 namespace SmartTripPlanner.ChargePoints.Graphs;
 
 /// <summary>
-/// This class represents the processed version of the <see cref="ChargePointGraph"/>.
+/// This class represents the processed version of the <see cref="ChargePointsGraph"/>.
 /// We reduce edge counts of nodes by reconstructing the graph with edging only neighbour ChargePoints in terms of locations.
 /// </summary>
 public class NeighbourChargePointsGraph : IChargePointGraph

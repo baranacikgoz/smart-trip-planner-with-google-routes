@@ -6,15 +6,13 @@ using SmartTripPlanner.Core.Routes.Models;
 
 namespace SmartTripPlanner.ChargePoints.Graphs;
 
-public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePointGraph
+public class ChargePointsGraph : GraphBase<ChargePointBarcode, Way>, IChargePointGraph
 {
     private readonly IVertexDataSource<ChargePoint, ChargePointBarcode> _chargePointDataSource;
-    private readonly IRoutesService _routesService;
 
-    public ChargePointGraph(IVertexDataSource<ChargePoint, ChargePointBarcode> chargePointDataSource, IRoutesService routesService)
+    public ChargePointsGraph(IVertexDataSource<ChargePoint, ChargePointBarcode> chargePointDataSource)
     {
         _chargePointDataSource = chargePointDataSource;
-        _routesService = routesService;
     }
 
     private Dictionary<ChargePointBarcode, List<Way>> _adjacencyDict = [];
@@ -34,7 +32,6 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
     {
         var chargePoints = await _chargePointDataSource.GetAllAsync();
 
-        var tasks = new List<Task<(ChargePointBarcode From, Way Edge)>>(chargePoints.Count * chargePoints.Count);
         for (var i = 0; i < chargePoints.Count; i++)
         {
             var from = chargePoints[i];
@@ -47,15 +44,9 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
                     continue;
                 }
 
-                tasks.Add(CalculateRouteAndAddEdgeAsync(from, to));
+                // Edge(Way) is added with placeholder values those will be calculated by google routes later.
+                await AddEdgeAsync(from.Barcode, new Way(to.Barcode, TimeSpan.MaxValue, double.MaxValue));
             }
-        }
-
-        var results = await Task.WhenAll(tasks);
-
-        foreach (var result in results)
-        {
-            await AddEdgeAsync(result.From, result.Edge);
         }
     }
 
@@ -65,11 +56,11 @@ public class ChargePointGraph : GraphBase<ChargePointBarcode, Way>, IChargePoint
         return new();
     }
 
-    private async Task<(ChargePointBarcode From, Way Edge)> CalculateRouteAndAddEdgeAsync(ChargePoint from, ChargePoint to)
-    {
-        var route = await _routesService.GetRoutesAsync(new LatLng(from.Latitude, from.Longitude),
-                                                        new LatLng(to.Latitude, to.Longitude));
+    //private async Task<(ChargePointBarcode From, Way Edge)> CalculateRouteAndAddEdgeAsync(ChargePoint from, ChargePoint to)
+    //{
+    //    var route = await _routesService.GetRoutesAsync(new LatLng(from.Latitude, from.Longitude),
+    //                                                    new LatLng(to.Latitude, to.Longitude));
 
-        return (from.Barcode, new Way(to.Barcode, route.Duration, route.DistanceMeters));
-    }
+    //    return (from.Barcode, new Way(to.Barcode, route.Duration, route.DistanceMeters));
+    //}
 }
