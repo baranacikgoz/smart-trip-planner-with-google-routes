@@ -3,6 +3,6 @@ using SmartTripPlanner.Core.Graph;
 
 namespace SmartTripPlanner.ChargePoints.Graphs;
 
-public interface IChargePointGraph : IGraph<ChargePointBarcode, Way>
+public interface IChargePointGraph : IGraph<ChargePoint, ChargePointBarcode, Way>
 {
 }

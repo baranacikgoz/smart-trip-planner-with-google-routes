@@ -15,8 +15,18 @@ public class CachedRoutesApiService(IRoutesApiService _decoree, ICache _cache) :
         CancellationToken cancellationToken = default)
         => await _cache
                     .GetOrSetAsync(
-                        key: GenerateCacheKey(origin, destination),
+                        key: GenerateGetComputeRoutesResponseAsyncCacheKey(origin, destination),
                         async () => await _decoree.GetComputeRoutesResponseAsync(origin, destination),
+                        cancellationToken: cancellationToken);
+
+    public async Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(
+        LatLng origin,
+        LatLng destination,
+        CancellationToken cancellationToken = default)
+        => await _cache
+                    .GetOrSetAsync(
+                        key: GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(origin, destination),
+                        async () => await _decoree.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination),
                         cancellationToken: cancellationToken);
 
     public async Task<ComputeRoutesWithIntermediateWaypointsResponse> GetRoutesWithIntermediateWaypointsResponseAsync(
@@ -26,14 +36,17 @@ public class CachedRoutesApiService(IRoutesApiService _decoree, ICache _cache) :
         CancellationToken cancellationToken = default)
         => await _cache
                     .GetOrSetAsync(
-                        key: GenerateCacheKey(origin, destination, intermediateWaypoints),
+                        key: GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(origin, destination, intermediateWaypoints),
                         async () => await _decoree.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, cancellationToken: cancellationToken),
                         cancellationToken: cancellationToken);
 
-    private static string GenerateCacheKey(LatLng origin, LatLng destination)
+    private static string GenerateGetComputeRoutesResponseAsyncCacheKey(LatLng origin, LatLng destination)
         => $"{nameof(ComputeRoutesResponse)}.({origin})-({destination})";
 
-    private static string GenerateCacheKey(LatLng origin, LatLng destination, ICollection<LatLng> intermediateWaypoints)
+    private static string GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(LatLng origin, LatLng destination)
+        => $"{nameof(ComputeDurationAndDistanceOnlyResponse)}.({origin})-({destination})";
+
+    private static string GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(LatLng origin, LatLng destination, ICollection<LatLng> intermediateWaypoints)
         => $"{nameof(ComputeRoutesWithIntermediateWaypointsResponse)}" +
            $".({origin})-({destination})" +
            $".Intermediates->{intermediateWaypoints.Aggregate(

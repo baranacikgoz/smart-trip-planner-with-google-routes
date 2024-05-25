@@ -12,6 +12,11 @@ public interface IRoutesApiService
         LatLng destination,
         CancellationToken cancellationToken = default);
 
+    Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(
+        LatLng origin,
+        LatLng destination,
+        CancellationToken cancellationToken = default);
+
     Task<ComputeRoutesWithIntermediateWaypointsResponse> GetRoutesWithIntermediateWaypointsResponseAsync(
         LatLng origin,
         LatLng destination,

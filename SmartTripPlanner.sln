@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1625E82-60F0-49DD-839F-3B059E76C7FD}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 		LICENSE = LICENSE
@@ -20,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.ChargePoin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.Core", "src\SmartTripPlanner.Core\SmartTripPlanner.Core.csproj", "{02E6E237-E3E2-44CF-B107-A9593DBBD943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTripPlanner.GoogleRoutes", "src\SmartTripPlanner.GoogleRoutes\SmartTripPlanner.GoogleRoutes.csproj", "{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.GoogleRoutes", "src\SmartTripPlanner.GoogleRoutes\SmartTripPlanner.GoogleRoutes.csproj", "{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AA2E7286-E37F-4F39-90C6-4500580C9684}"
 EndProject

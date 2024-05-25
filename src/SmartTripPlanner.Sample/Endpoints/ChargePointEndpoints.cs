@@ -21,7 +21,7 @@ public static class ChargePointEndpoints
         return chargePointRepository.GetAll();
     }
 
-    private static async ValueTask<IReadOnlyDictionary<ChargePointBarcode, List<Way>>> GetGraph(
+    private static async ValueTask<IReadOnlyDictionary<ChargePoint, List<Way>>> GetGraph(
         [FromServices] IChargePointGraph graph)
         => await graph.GetAdjacencyDictAsync();
 }

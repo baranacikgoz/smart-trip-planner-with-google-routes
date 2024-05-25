@@ -4,9 +4,10 @@ using SmartTripPlanner.Core.Graph;
 
 namespace SmartTripPlanner.Core.Cache;
 
-public class GraphCache<TVertexId, TEdge>(IDistributedCache _cache)
-    : Cache<Dictionary<TVertexId, List<TEdge>>>(_cache), IGraphCache<TVertexId, TEdge>
+public class GraphCache<TVertex, TVertexId, TEdge>(IDistributedCache _cache)
+    : Cache<Dictionary<TVertex, List<TEdge>>>(_cache), IGraphCache<TVertex, TVertexId, TEdge>
+    where TVertex : IVertex<TVertexId>
     where TVertexId : StronglyTypedVertexId
-    where TEdge : Edge
+    where TEdge : Edge<TVertex, TVertexId>
 {
 }

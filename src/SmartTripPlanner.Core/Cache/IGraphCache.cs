@@ -5,8 +5,9 @@ using System.Text.Json;
 using SmartTripPlanner.Core.Graph;
 
 namespace SmartTripPlanner.Core.Cache;
-public interface IGraphCache<TVertexId, TEdge> : ICache<Dictionary<TVertexId, List<TEdge>>>
+public interface IGraphCache<TVertex, TVertexId, TEdge> : ICache<Dictionary<TVertex, List<TEdge>>>
+    where TVertex : IVertex<TVertexId>
     where TVertexId : StronglyTypedVertexId
-    where TEdge : Edge
+    where TEdge : Edge<TVertex, TVertexId>
 {
 }

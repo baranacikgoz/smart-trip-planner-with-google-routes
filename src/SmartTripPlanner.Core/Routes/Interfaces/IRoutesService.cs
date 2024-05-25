@@ -11,6 +11,11 @@ public interface IRoutesService
         LatLng destination,
         CancellationToken cancellationToken = default);
 
+    Task<(TimeSpan Duration, double DistanceMeters)> GetDurationAndDistanceOnlyAsync(
+        LatLng origin,
+        LatLng destination,
+        CancellationToken cancellationToken = default);
+
     Task<RoutesWithIntermediateWayPoints> GetRoutesWithIntermediateWaypointsAsync(
         LatLng origin,
         LatLng destination,

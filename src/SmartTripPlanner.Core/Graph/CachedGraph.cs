@@ -4,23 +4,23 @@ using SmartTripPlanner.Core.JsonConverters;
 
 namespace SmartTripPlanner.Core.Graph;
 
-public class CachedGraph<TVertexId, TEdge> : IGraph<TVertexId, TEdge>
+public class CachedGraph<TVertex, TVertexId, TEdge> : IGraph<TVertex, TVertexId, TEdge>
+    where TVertex : IVertex<TVertexId>
     where TVertexId : StronglyTypedVertexId, new()
-    where TEdge : Edge
+    where TEdge : Edge<TVertex, TVertexId>
 {
     private static readonly JsonSerializerOptions _serializerOptions = new()
     {
         WriteIndented = true,
-        Converters = { new StronglyTypedVertexIdJsonConverter<TVertexId>() }
     };
 
-    private readonly IGraph<TVertexId, TEdge> _decoree;
-    private readonly IGraphCache<TVertexId, TEdge> _cache;
+    private readonly IGraph<TVertex, TVertexId, TEdge> _decoree;
+    private readonly IGraphCache<TVertex, TVertexId, TEdge> _cache;
     private readonly string _cacheKey;
 
     public CachedGraph(
-        IGraph<TVertexId, TEdge> decoree,
-        IGraphCache<TVertexId, TEdge> cache,
+        IGraph<TVertex, TVertexId, TEdge> decoree,
+        IGraphCache<TVertex, TVertexId, TEdge> cache,
         string cacheKey)
     {
         _decoree = decoree;
@@ -28,13 +28,13 @@ public class CachedGraph<TVertexId, TEdge> : IGraph<TVertexId, TEdge>
         _cacheKey = cacheKey;
     }
 
-    public async ValueTask<Dictionary<TVertexId, List<TEdge>>> GetAdjacencyDictAsync()
-    => await _cache.GetOrSetAsync(
-            _cacheKey,
-            async () => await _decoree.GetAdjacencyDictAsync(),
-            serializerOptions: _serializerOptions);
+    public async ValueTask<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync()
+        => await _cache.GetOrSetAsync(
+                            _cacheKey,
+                            async () => await _decoree.GetAdjacencyDictAsync(),
+                            serializerOptions: _serializerOptions);
 
-    public async ValueTask ReconstructFrom(Dictionary<TVertexId, List<TEdge>> adjacencyDict)
+    public async ValueTask ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict)
     {
         await _decoree.ReconstructFrom(adjacencyDict);
         await RefreshCacheAsync();
@@ -49,12 +49,12 @@ public class CachedGraph<TVertexId, TEdge> : IGraph<TVertexId, TEdge>
         }
     }
 
-    public async Task AddNodeAsync(TVertexId node)
+    public async Task AddNodeAsync(TVertex node)
     {
         await _decoree.AddNodeAsync(node);
         await RefreshCacheAsync();
     }
-    public async Task AddEdgeAsync(TVertexId from, TEdge edge)
+    public async Task AddEdgeAsync(TVertex from, TEdge edge)
     {
         await _decoree.AddEdgeAsync(from, edge);
         await RefreshCacheAsync();
@@ -62,8 +62,8 @@ public class CachedGraph<TVertexId, TEdge> : IGraph<TVertexId, TEdge>
 
     private async Task RefreshCacheAsync()
         => await _cache.SetAsync(
-            cacheKey: _cacheKey,
-            func: async () => await _decoree.GetAdjacencyDictAsync(),
-            serializerOptions: _serializerOptions);
+                            cacheKey: _cacheKey,
+                            func: async () => await _decoree.GetAdjacencyDictAsync(),
+                            serializerOptions: _serializerOptions);
 }
 

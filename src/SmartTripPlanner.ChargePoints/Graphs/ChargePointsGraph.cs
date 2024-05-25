@@ -6,7 +6,7 @@ using SmartTripPlanner.Core.Routes.Models;
 
 namespace SmartTripPlanner.ChargePoints.Graphs;
 
-public class ChargePointsGraph : GraphBase<ChargePointBarcode, Way>, IChargePointGraph
+public class ChargePointsGraph : GraphBase<ChargePoint, ChargePointBarcode, Way>, IChargePointGraph
 {
     private readonly IVertexDataSource<ChargePoint, ChargePointBarcode> _chargePointDataSource;
 
@@ -15,9 +15,9 @@ public class ChargePointsGraph : GraphBase<ChargePointBarcode, Way>, IChargePoin
         _chargePointDataSource = chargePointDataSource;
     }
 
-    private Dictionary<ChargePointBarcode, List<Way>> _adjacencyDict = [];
+    private Dictionary<ChargePoint, List<Way>> _adjacencyDict = [];
 
-    public override ValueTask<Dictionary<ChargePointBarcode, List<Way>>> GetAdjacencyDictAsync()
+    public override ValueTask<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync()
         => new(_adjacencyDict);
 
     public override async Task EnsureInitializedAsync()
@@ -45,22 +45,14 @@ public class ChargePointsGraph : GraphBase<ChargePointBarcode, Way>, IChargePoin
                 }
 
                 // Edge(Way) is added with placeholder values those will be calculated by google routes later.
-                await AddEdgeAsync(from.Barcode, new Way(to.Barcode, TimeSpan.MaxValue, double.MaxValue));
+                await AddEdgeAsync(from, new Way(to, TimeSpan.MaxValue, double.MaxValue));
             }
         }
     }
 
-    public override ValueTask ReconstructFrom(Dictionary<ChargePointBarcode, List<Way>> adjacencyDict)
+    public override ValueTask ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict)
     {
         _adjacencyDict = adjacencyDict;
         return new();
     }
-
-    //private async Task<(ChargePointBarcode From, Way Edge)> CalculateRouteAndAddEdgeAsync(ChargePoint from, ChargePoint to)
-    //{
-    //    var route = await _routesService.GetRoutesAsync(new LatLng(from.Latitude, from.Longitude),
-    //                                                    new LatLng(to.Latitude, to.Longitude));
-
-    //    return (from.Barcode, new Way(to.Barcode, route.Duration, route.DistanceMeters));
-    //}
 }

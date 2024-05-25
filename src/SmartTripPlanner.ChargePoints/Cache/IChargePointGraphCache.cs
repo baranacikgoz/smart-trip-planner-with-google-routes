@@ -5,6 +5,6 @@ using SmartTripPlanner.ChargePoints.Models;
 using SmartTripPlanner.Core.Cache;
 
 namespace SmartTripPlanner.ChargePoints.Cache;
-public interface IChargePointGraphCache : IGraphCache<ChargePointBarcode, Way>
+public interface IChargePointGraphCache : IGraphCache<ChargePoint, ChargePointBarcode, Way>
 {
 }

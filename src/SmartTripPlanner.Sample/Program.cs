@@ -49,6 +49,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-await app.Services.GetRequiredService<IChargePointGraph>().EnsureInitializedAsync();
+var cpGraph = app.Services.GetRequiredService<IChargePointGraph>();
 
-await app.RunAsync();
+await cpGraph.EnsureInitializedAsync();
+
+#pragma warning disable CA1849 // Call async methods when in an async method
+#pragma warning disable S6966 // Awaitable method should be used
+app.Run();
+#pragma warning restore S6966 // Awaitable method should be used
+#pragma warning restore CA1849 // Call async methods when in an async method

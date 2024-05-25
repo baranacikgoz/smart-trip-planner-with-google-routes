@@ -36,6 +36,16 @@ public class GoogleRoutesApiService(
         return await GetResponseAsync<ComputeRoutesResponse>(requestJsonString, "*", cancellationToken);
     }
 
+    public async Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(LatLng origin, LatLng destination, CancellationToken cancellationToken = default)
+    {
+        var requestJsonString = RequestToJsonString(
+            new Location(origin),
+            new Location(destination)
+            );
+
+        return await GetResponseAsync<ComputeDurationAndDistanceOnlyResponse>(requestJsonString, "routes.duration,routes.distanceMeters", cancellationToken);
+    }
+
     public async Task<ComputeRoutesWithIntermediateWaypointsResponse> GetRoutesWithIntermediateWaypointsResponseAsync(
         LatLng origin,
         LatLng destination,
@@ -78,8 +88,11 @@ public class GoogleRoutesApiService(
             throw;
         }
 
-        return await response.Content.ReadFromJsonAsync<T>(_jsonSerializerOptions, cancellationToken: cancellationToken)
-            ?? throw new GoogleRoutesException("Google Routes API response was empty or invalid.", requestJsonString, await response.Content.ReadAsStringAsync());
+        var responseJson = await response.Content.ReadAsStringAsync();
+        var deserializedResponse = JsonSerializer.Deserialize<T>(responseJson, _jsonSerializerOptions)
+            ?? throw new GoogleRoutesException("Google Routes API response was empty or invalid.", requestJsonString, responseJson);
+
+        return deserializedResponse;
     }
 
     private static string RequestToJsonString(

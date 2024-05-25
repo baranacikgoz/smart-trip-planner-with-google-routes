@@ -32,6 +32,14 @@ public class GoogleRoutesService(
             );
     }
 
+    public async Task<(TimeSpan Duration, double DistanceMeters)> GetDurationAndDistanceOnlyAsync(LatLng origin, LatLng destination, CancellationToken cancellationToken = default)
+    {
+        var response = await _apiService.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination, cancellationToken);
+        var durationAndDistanceOnlyRoute = response.Routes.Single();
+
+        return (durationAndDistanceOnlyRoute.Duration.ToTimeSpan(), durationAndDistanceOnlyRoute.DistanceMeters);
+    }
+
     public async Task<RoutesWithIntermediateWayPoints> GetRoutesWithIntermediateWaypointsAsync(
         LatLng origin,
         LatLng destination,

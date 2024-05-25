@@ -6,9 +6,8 @@ services:
     build:
       context: .
       dockerfile: src/SmartTripPlanner.Sample/Dockerfile
-    environment:
-      - RedisOptions__Host=smarttripplanner.redis:6379
-      - RedisOptions__InstanceName=SmartTripPlanner-
+    env_file:
+      - .env
 
   smarttripplanner.redis:
     image: redis/redis-stack:latest

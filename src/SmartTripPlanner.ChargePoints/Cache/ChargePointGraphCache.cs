@@ -6,9 +6,7 @@ using SmartTripPlanner.ChargePoints.Models;
 using SmartTripPlanner.Core.Cache;
 
 namespace SmartTripPlanner.ChargePoints.Cache;
-public class ChargePointGraphCache : GraphCache<ChargePointBarcode, Way>, IChargePointGraphCache
+public class ChargePointGraphCache(IDistributedCache _cache)
+    : GraphCache<ChargePoint, ChargePointBarcode, Way>(_cache), IChargePointGraphCache
 {
-    public ChargePointGraphCache(IDistributedCache _cache) : base(_cache)
-    {
-    }
 }

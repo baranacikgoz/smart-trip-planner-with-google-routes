@@ -22,7 +22,7 @@ public class SmartTripPlannerConfig(IServiceCollection Services) : ISmartTripPla
             Services.AddDistributedMemoryCache();
         }
 
-        Services.AddSingleton(typeof(IGraphCache<,>), typeof(GraphCache<,>));
+        Services.AddSingleton(typeof(IGraphCache<,,>), typeof(GraphCache<,,>));
         Services.AddSingleton(typeof(ICache<>), typeof(Cache<>));
         Services.AddSingleton<ICache, Cache.Cache>();
     }

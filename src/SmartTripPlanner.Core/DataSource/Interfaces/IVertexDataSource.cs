@@ -9,4 +9,6 @@ public interface IVertexDataSource<TVertex, TVertexId>
     where TVertex : IVertex<TVertexId>
 {
     Task<IReadOnlyList<TVertex>> GetAllAsync();
+    Task<TVertex?> GetById(TVertexId id);
+    Task<IReadOnlyList<TVertex>> GetByIds(ICollection<TVertexId> ids);
 }
