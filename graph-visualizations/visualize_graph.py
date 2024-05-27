@@ -1,9 +1,16 @@
 import json
 import networkx as nx
 from pyvis.network import Network
+import argparse
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Visualize a graph from a JSON file.')
+parser.add_argument('graphFile', type=str, help='The JSON file containing the graph data')
+args = parser.parse_args()
 
 # Load JSON data
-with open('graph.json', 'r') as file:
+graphFile = args.graphFile
+with open(graphFile, 'r') as file:
     data = json.load(file)
 
 # Initialize the graph
@@ -23,12 +30,12 @@ for charge_point, ways in data.items():
         G.add_edge(from_node, to_node, distance=distance, duration=duration)
 
 # Initialize PyVis network
-net = Network(notebook=True, height='800px', width='100%', bgcolor='#222222', font_color='white')
+net = Network(notebook=False, height='100vh', width='100%', bgcolor='#222222', font_color='white')
 
 # Convert NetworkX graph to PyVis network
 net.from_nx(G)
 
-# Set options for better visualization
+# Set options for better visualization with adjusted physics settings
 net.set_options("""
 var options = {
   "nodes": {
@@ -62,5 +69,9 @@ var options = {
 }
 """)
 
+
 # Generate the HTML file
-net.show('charge_points_graph.html')
+html_file = graphFile.replace('.json', '') + '.html'
+net.write_html(html_file, notebook=False)
+
+print(f"Graph visualization saved as {html_file}")

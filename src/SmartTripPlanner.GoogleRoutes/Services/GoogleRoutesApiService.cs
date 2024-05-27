@@ -26,21 +26,28 @@ public class GoogleRoutesApiService(
     public async Task<ComputeRoutesResponse> GetComputeRoutesResponseAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
     {
         var requestJsonString = RequestToJsonString(
             new Location(origin),
-            new Location(destination)
+            new Location(destination),
+            trafficAwareness
             );
 
         return await GetResponseAsync<ComputeRoutesResponse>(requestJsonString, "*", cancellationToken);
     }
 
-    public async Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(LatLng origin, LatLng destination, CancellationToken cancellationToken = default)
+    public async Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(
+        LatLng origin,
+        LatLng destination,
+        TrafficAwareness trafficAwareness,
+        CancellationToken cancellationToken = default)
     {
         var requestJsonString = RequestToJsonString(
             new Location(origin),
-            new Location(destination)
+            new Location(destination),
+            trafficAwareness
             );
 
         return await GetResponseAsync<ComputeDurationAndDistanceOnlyResponse>(requestJsonString, "routes.duration,routes.distanceMeters", cancellationToken);
@@ -50,11 +57,13 @@ public class GoogleRoutesApiService(
         LatLng origin,
         LatLng destination,
         ICollection<LatLng> intermediateWaypoints,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
     {
         var requestJsonString = RequestToJsonString(
             new Location(origin),
             new Location(destination),
+            trafficAwareness,
             intermediateWaypoints: intermediateWaypoints.Select(latLng => new Location(latLng)).ToList());
 
         return await GetResponseAsync<ComputeRoutesWithIntermediateWaypointsResponse>(requestJsonString, "*", cancellationToken);
@@ -98,8 +107,25 @@ public class GoogleRoutesApiService(
     private static string RequestToJsonString(
         Location origin,
         Location destination,
-        string travelMode = GoogleRoutesConstants.TravelModes.Driving,
-        string routingPreference = GoogleRoutesConstants.RoutingPreferences.TrafficAware,
+        TrafficAwareness trafficAwareness,
+        ICollection<Location>? intermediateWaypoints = null)
+    {
+        var routingPreference = trafficAwareness switch
+        {
+            TrafficAwareness.NonTrafficAware => GoogleRoutesConstants.RoutingPreferences.NonTrafficAware,
+            TrafficAwareness.TrafficAware => GoogleRoutesConstants.RoutingPreferences.TrafficAware,
+            _ => throw new NotImplementedException($"Unknown {nameof(TrafficAwareness)}: ({trafficAwareness}).")
+        };
+
+        return RequestToJsonString(origin, destination, routingPreference, GoogleRoutesConstants.TravelModes.Driving, intermediateWaypoints);
+    }
+
+    // !!! DO NOT change parameter names, they are mapped to anonymous object with that param names.
+    private static string RequestToJsonString(
+        Location origin,
+        Location destination,
+        string routingPreference,
+        string travelMode,
         ICollection<Location>? intermediateWaypoints = null)
     {
 

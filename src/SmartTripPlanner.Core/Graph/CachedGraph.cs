@@ -28,13 +28,13 @@ public class CachedGraph<TVertex, TVertexId, TEdge> : IGraph<TVertex, TVertexId,
         _cacheKey = cacheKey;
     }
 
-    public async ValueTask<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync()
+    public async Task<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync()
         => await _cache.GetOrSetAsync(
                             _cacheKey,
                             async () => await _decoree.GetAdjacencyDictAsync(),
                             serializerOptions: _serializerOptions);
 
-    public async ValueTask ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict)
+    public async Task ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict)
     {
         await _decoree.ReconstructFrom(adjacencyDict);
         await RefreshCacheAsync();

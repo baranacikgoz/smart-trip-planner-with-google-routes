@@ -10,16 +10,19 @@ public interface IRoutesApiService
     Task<ComputeRoutesResponse> GetComputeRoutesResponseAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default);
 
     Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default);
 
     Task<ComputeRoutesWithIntermediateWaypointsResponse> GetRoutesWithIntermediateWaypointsResponseAsync(
         LatLng origin,
         LatLng destination,
         ICollection<LatLng> intermediateWaypoints,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default);
 }

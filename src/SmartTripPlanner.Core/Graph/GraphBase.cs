@@ -6,7 +6,7 @@ public abstract class GraphBase<TVertex, TVertexId, TEdge> : IGraph<TVertex, TVe
     where TEdge : Edge<TVertex, TVertexId>
 {
 
-    public abstract ValueTask<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync();
+    public abstract Task<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync();
 
     public abstract Task EnsureInitializedAsync();
     public async Task AddNodeAsync(TVertex node)
@@ -21,5 +21,5 @@ public abstract class GraphBase<TVertex, TVertexId, TEdge> : IGraph<TVertex, TVe
         (await GetAdjacencyDictAsync())[from].Add(edge);
     }
 
-    public abstract ValueTask ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict);
+    public abstract Task ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict);
 }

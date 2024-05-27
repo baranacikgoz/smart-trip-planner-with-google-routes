@@ -12,46 +12,58 @@ public class CachedRoutesApiService(IRoutesApiService _decoree, ICache _cache) :
     public async Task<ComputeRoutesResponse> GetComputeRoutesResponseAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
         => await _cache
                     .GetOrSetAsync(
-                        key: GenerateGetComputeRoutesResponseAsyncCacheKey(origin, destination),
-                        async () => await _decoree.GetComputeRoutesResponseAsync(origin, destination),
+                        key: GenerateGetComputeRoutesResponseAsyncCacheKey(origin, destination, trafficAwareness),
+                        async () => await _decoree.GetComputeRoutesResponseAsync(origin, destination, trafficAwareness),
                         cancellationToken: cancellationToken);
 
     public async Task<ComputeDurationAndDistanceOnlyResponse> GetComputeDurationAndDistanceOnlyResponseAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
         => await _cache
                     .GetOrSetAsync(
-                        key: GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(origin, destination),
-                        async () => await _decoree.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination),
+                        key: GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(origin, destination, trafficAwareness),
+                        async () => await _decoree.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination, trafficAwareness),
                         cancellationToken: cancellationToken);
 
     public async Task<ComputeRoutesWithIntermediateWaypointsResponse> GetRoutesWithIntermediateWaypointsResponseAsync(
         LatLng origin,
         LatLng destination,
         ICollection<LatLng> intermediateWaypoints,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
         => await _cache
                     .GetOrSetAsync(
-                        key: GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(origin, destination, intermediateWaypoints),
-                        async () => await _decoree.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, cancellationToken: cancellationToken),
+                        key: GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(origin, destination, intermediateWaypoints, trafficAwareness),
+                        async () => await _decoree.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, trafficAwareness, cancellationToken: cancellationToken),
                         cancellationToken: cancellationToken);
 
-    private static string GenerateGetComputeRoutesResponseAsyncCacheKey(LatLng origin, LatLng destination)
-        => $"{nameof(ComputeRoutesResponse)}.({origin})-({destination})";
+    private static string GenerateGetComputeRoutesResponseAsyncCacheKey(LatLng origin, LatLng destination, TrafficAwareness trafficAwareness)
+        => $"{TrafficeAwarenessInCacheKey(trafficAwareness)}.({origin})-({destination})";
 
-    private static string GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(LatLng origin, LatLng destination)
-        => $"{nameof(ComputeDurationAndDistanceOnlyResponse)}.({origin})-({destination})";
+    private static string GenerateGetComputeDurationAndDistanceOnlyResponseAsyncCacheKey(LatLng origin, LatLng destination, TrafficAwareness trafficAwareness)
+        => $"{TrafficeAwarenessInCacheKey(trafficAwareness)}.DDOnly.({origin})-({destination})";
 
-    private static string GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(LatLng origin, LatLng destination, ICollection<LatLng> intermediateWaypoints)
-        => $"{nameof(ComputeRoutesWithIntermediateWaypointsResponse)}" +
-           $".({origin})-({destination})" +
-           $".Intermediates->{intermediateWaypoints.Aggregate(
-                                                        new StringBuilder(),
-                                                        (acc, current) => acc.Append('(')
-                                                                             .Append(current)
-                                                                             .Append(')'))}";
+    private static string GenerateGetRoutesWithIntermediateWaypointsResponseAsyncCacheKey(LatLng origin, LatLng destination, ICollection<LatLng> intermediateWaypoints, TrafficAwareness trafficAwareness)
+        => $"{TrafficeAwarenessInCacheKey(trafficAwareness)}" +
+           $".({origin})" +
+           $"->{intermediateWaypoints.Aggregate(
+                                         new StringBuilder(),
+                                         (acc, current) => acc.Append('(')
+                                                              .Append(current)
+                                                              .Append(')'))}" +
+           $"->({destination})";
+
+    private static string TrafficeAwarenessInCacheKey(TrafficAwareness trafficAwareness)
+        => trafficAwareness switch
+        {
+            TrafficAwareness.NonTrafficAware => "T:0",
+            TrafficAwareness.TrafficAware => "T:1",
+            _ => throw new NotImplementedException($"Unknown {nameof(TrafficAwareness)}: ({trafficAwareness}).")
+        };
 }

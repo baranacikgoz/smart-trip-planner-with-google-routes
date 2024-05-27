@@ -16,36 +16,51 @@ public class ChargePointsRealRoutesGraph : IChargePointGraph
         _routesService = routesService;
     }
 
-    public ValueTask<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync() => _decoree.GetAdjacencyDictAsync();
-    public ValueTask ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict) => _decoree.ReconstructFrom(adjacencyDict);
+    public Task<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync() => _decoree.GetAdjacencyDictAsync();
+    public Task ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict) => _decoree.ReconstructFrom(adjacencyDict);
     public Task AddEdgeAsync(ChargePoint from, Way edge) => _decoree.AddEdgeAsync(from, edge);
     public Task AddNodeAsync(ChargePoint node) => _decoree.AddNodeAsync(node);
 
     public async Task EnsureInitializedAsync()
     {
         await _decoree.EnsureInitializedAsync();
+        await ReconstructWithRealRoutesAsync();
+    }
 
+    private async Task ReconstructWithRealRoutesAsync()
+    {
         var oldGraph = await _decoree.GetAdjacencyDictAsync();
+        var newGraphWithRealRoutes = new Dictionary<ChargePoint, List<Way>>();
 
-        Dictionary<ChargePoint, List<Way>> newGraphWithRealRoutes = [];
+        using var throttler = new SemaphoreSlim(initialCount: 8); // Limit concurrency otherwise both redis and httpclient throws exceptions
+        var tasks = new List<Task>();
 
-        var calculateNewEdgeTasks = new List<Task<(ChargePoint From, Way Way)>>();
         foreach (var (chargePoint, edges) in oldGraph)
         {
-            newGraphWithRealRoutes.Add(chargePoint, []);
+            newGraphWithRealRoutes[chargePoint] = new List<Way>();
 
             foreach (var edge in edges)
             {
-                calculateNewEdgeTasks.Add(CalculateNewEdgeWithRealRoute(chargePoint, edge.To));
+                await throttler.WaitAsync();
+                tasks.Add(Task.Run(async () =>
+                {
+                    try
+                    {
+                        var newEdge = await CalculateNewEdgeWithRealRoute(chargePoint, edge.To);
+                        lock (newGraphWithRealRoutes)
+                        {
+                            newGraphWithRealRoutes[chargePoint].Add(newEdge.Edge);
+                        }
+                    }
+                    finally
+                    {
+                        throttler.Release();
+                    }
+                }));
             }
         }
 
-        var newEdges = await Task.WhenAll(calculateNewEdgeTasks);
-        foreach (var (chargePoint, edge) in newEdges)
-        {
-            newGraphWithRealRoutes[chargePoint].Add(edge);
-        }
-
+        await Task.WhenAll(tasks);
         await _decoree.ReconstructFrom(newGraphWithRealRoutes);
     }
 
@@ -53,7 +68,9 @@ public class ChargePointsRealRoutesGraph : IChargePointGraph
     {
         var (duration, distanceMeters) = await _routesService.GetDurationAndDistanceOnlyAsync(
                                                                     new(from.Latitude, from.Longitude),
-                                                                    new(to.Latitude, to.Longitude));
+                                                                    new(to.Latitude, to.Longitude),
+                                                                    TrafficAwareness.NonTrafficAware // We are constructing a graph, not doing a route finding at this time.
+                                                                    );
 
         return (from, new Way(to, duration, distanceMeters));
     }

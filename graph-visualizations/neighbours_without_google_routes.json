@@ -1,0 +1,6802 @@
+{
+  "{\"Barcode\":\"CP-IST-3\",\"Latitude\":40.9779,\"Longitude\":29.1744,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-2",
+        "Latitude": 40.9774,
+        "Longitude": 29.1743,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-2",
+        "Latitude": 40.9774,
+        "Longitude": 29.1743,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-22\",\"Latitude\":41.0613,\"Longitude\":28.9967,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-14\",\"Latitude\":40.9775,\"Longitude\":29.0665,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-13\",\"Latitude\":40.9707,\"Longitude\":29.0838,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-8",
+        "Latitude": 40.9604,
+        "Longitude": 29.0816,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-8",
+        "Latitude": 40.9604,
+        "Longitude": 29.0816,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-9\",\"Latitude\":40.9863,\"Longitude\":29.0675,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-6\",\"Latitude\":41.0206,\"Longitude\":28.9331,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-30\",\"Latitude\":41.0116,\"Longitude\":28.9134,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-6",
+        "Latitude": 41.0206,
+        "Longitude": 28.9331,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-6",
+        "Latitude": 41.0206,
+        "Longitude": 28.9331,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-4",
+        "Latitude": 40.9953,
+        "Longitude": 28.9246,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-4",
+        "Latitude": 40.9953,
+        "Longitude": 28.9246,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-19\",\"Latitude\":41.0491,\"Longitude\":28.9715,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-8\",\"Latitude\":40.9604,\"Longitude\":29.0816,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-24\",\"Latitude\":41.0453,\"Longitude\":28.9893,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-10\",\"Latitude\":40.9911,\"Longitude\":29.0544,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-11",
+        "Latitude": 40.9975,
+        "Longitude": 29.039,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-11",
+        "Latitude": 40.9975,
+        "Longitude": 29.039,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-15\",\"Latitude\":40.9725,\"Longitude\":29.0504,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-31",
+        "Latitude": 40.9755,
+        "Longitude": 29.0557,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-29\",\"Latitude\":41.0105,\"Longitude\":28.9474,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-4\",\"Latitude\":40.9953,\"Longitude\":28.9246,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-5",
+        "Latitude": 41.0109,
+        "Longitude": 28.93,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-30",
+        "Latitude": 41.0116,
+        "Longitude": 28.9134,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-30",
+        "Latitude": 41.0116,
+        "Longitude": 28.9134,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-5\",\"Latitude\":41.0109,\"Longitude\":28.93,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-6",
+        "Latitude": 41.0206,
+        "Longitude": 28.9331,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-6",
+        "Latitude": 41.0206,
+        "Longitude": 28.9331,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-30",
+        "Latitude": 41.0116,
+        "Longitude": 28.9134,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-30",
+        "Latitude": 41.0116,
+        "Longitude": 28.9134,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-20\",\"Latitude\":41.0415,\"Longitude\":28.9637,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-21",
+        "Latitude": 41.0525,
+        "Longitude": 28.9767,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-17",
+        "Latitude": 41.0269,
+        "Longitude": 28.9744,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-17",
+        "Latitude": 41.0269,
+        "Longitude": 28.9744,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-2\",\"Latitude\":40.9774,\"Longitude\":29.1743,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-3",
+        "Latitude": 40.9779,
+        "Longitude": 29.1744,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-3",
+        "Latitude": 40.9779,
+        "Longitude": 29.1744,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-12",
+        "Latitude": 40.9825,
+        "Longitude": 29.0859,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-16\",\"Latitude\":41.0482,\"Longitude\":29.018,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-28\",\"Latitude\":41.0045,\"Longitude\":28.9531,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-17\",\"Latitude\":41.0269,\"Longitude\":28.9744,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-25\",\"Latitude\":41.0097,\"Longitude\":28.9671,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-26",
+        "Latitude": 41.003,
+        "Longitude": 28.9789,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-26",
+        "Latitude": 41.003,
+        "Longitude": 28.9789,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-7\",\"Latitude\":40.9862,\"Longitude\":29.0291,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-11",
+        "Latitude": 40.9975,
+        "Longitude": 29.039,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-11",
+        "Latitude": 40.9975,
+        "Longitude": 29.039,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-26\",\"Latitude\":41.003,\"Longitude\":28.9789,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-11\",\"Latitude\":40.9975,\"Longitude\":29.039,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-10",
+        "Latitude": 40.9911,
+        "Longitude": 29.0544,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-7",
+        "Latitude": 40.9862,
+        "Longitude": 29.0291,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-7",
+        "Latitude": 40.9862,
+        "Longitude": 29.0291,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-27\",\"Latitude\":41.0205,\"Longitude\":28.9551,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-1",
+        "Latitude": 41.0127,
+        "Longitude": 28.9529,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-25",
+        "Latitude": 41.0097,
+        "Longitude": 28.9671,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-21\",\"Latitude\":41.0525,\"Longitude\":28.9767,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-19",
+        "Latitude": 41.0491,
+        "Longitude": 28.9715,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-20",
+        "Latitude": 41.0415,
+        "Longitude": 28.9637,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-31\",\"Latitude\":40.9755,\"Longitude\":29.0557,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-15",
+        "Latitude": 40.9725,
+        "Longitude": 29.0504,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-1\",\"Latitude\":41.0127,\"Longitude\":28.9529,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-29",
+        "Latitude": 41.0105,
+        "Longitude": 28.9474,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-27",
+        "Latitude": 41.0205,
+        "Longitude": 28.9551,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-28",
+        "Latitude": 41.0045,
+        "Longitude": 28.9531,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-12\",\"Latitude\":40.9825,\"Longitude\":29.0859,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-13",
+        "Latitude": 40.9707,
+        "Longitude": 29.0838,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-9",
+        "Latitude": 40.9863,
+        "Longitude": 29.0675,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-14",
+        "Latitude": 40.9775,
+        "Longitude": 29.0665,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-23\",\"Latitude\":41.0566,\"Longitude\":29.0038,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-22",
+        "Latitude": 41.0613,
+        "Longitude": 28.9967,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-22",
+        "Latitude": 41.0613,
+        "Longitude": 28.9967,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-16",
+        "Latitude": 41.0482,
+        "Longitude": 29.018,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-16",
+        "Latitude": 41.0482,
+        "Longitude": 29.018,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-18\",\"Latitude\":41.038,\"Longitude\":28.9944,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-24",
+        "Latitude": 41.0453,
+        "Longitude": 28.9893,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-32",
+        "Latitude": 41.0448,
+        "Longitude": 29.0091,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-17",
+        "Latitude": 41.0269,
+        "Longitude": 28.9744,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-17",
+        "Latitude": 41.0269,
+        "Longitude": 28.9744,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IST-32\",\"Latitude\":41.0448,\"Longitude\":29.0091,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IST-16",
+        "Latitude": 41.0482,
+        "Longitude": 29.018,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-16",
+        "Latitude": 41.0482,
+        "Longitude": 29.018,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IST-23",
+        "Latitude": 41.0566,
+        "Longitude": 29.0038,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IST-18",
+        "Latitude": 41.038,
+        "Longitude": 28.9944,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-19\",\"Latitude\":36.8756,\"Longitude\":30.6576,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-23\",\"Latitude\":36.8864,\"Longitude\":30.6793,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-2\",\"Latitude\":36.8981,\"Longitude\":30.6477,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-16",
+        "Latitude": 36.9003,
+        "Longitude": 30.6459,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-16",
+        "Latitude": 36.9003,
+        "Longitude": 30.6459,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-1\",\"Latitude\":36.8829,\"Longitude\":30.6718,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-16\",\"Latitude\":36.9003,\"Longitude\":30.6459,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-31\",\"Latitude\":36.8488,\"Longitude\":30.7635,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-13",
+        "Latitude": 36.8522,
+        "Longitude": 30.7573,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-13",
+        "Latitude": 36.8522,
+        "Longitude": 30.7573,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-33\",\"Latitude\":36.8699,\"Longitude\":30.6506,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-3\",\"Latitude\":36.8817,\"Longitude\":30.6678,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-30\",\"Latitude\":36.8596,\"Longitude\":30.731,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-29",
+        "Latitude": 36.8654,
+        "Longitude": 30.7261,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-29",
+        "Latitude": 36.8654,
+        "Longitude": 30.7261,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-10\",\"Latitude\":36.8854,\"Longitude\":30.6927,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-12\",\"Latitude\":36.8584,\"Longitude\":30.7463,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-13",
+        "Latitude": 36.8522,
+        "Longitude": 30.7573,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-13",
+        "Latitude": 36.8522,
+        "Longitude": 30.7573,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-31",
+        "Latitude": 36.8488,
+        "Longitude": 30.7635,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-31",
+        "Latitude": 36.8488,
+        "Longitude": 30.7635,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-32\",\"Latitude\":36.8583,\"Longitude\":30.6309,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-15",
+        "Latitude": 36.8515,
+        "Longitude": 30.6225,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-15",
+        "Latitude": 36.8515,
+        "Longitude": 30.6225,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-15\",\"Latitude\":36.8515,\"Longitude\":30.6225,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-32",
+        "Latitude": 36.8583,
+        "Longitude": 30.6309,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-32",
+        "Latitude": 36.8583,
+        "Longitude": 30.6309,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-7\",\"Latitude\":36.8793,\"Longitude\":30.6604,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-17",
+        "Latitude": 36.8779,
+        "Longitude": 30.6635,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-20",
+        "Latitude": 36.8804,
+        "Longitude": 30.6536,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-20",
+        "Latitude": 36.8804,
+        "Longitude": 30.6536,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-17\",\"Latitude\":36.8779,\"Longitude\":30.6635,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-24\",\"Latitude\":36.8849,\"Longitude\":30.6869,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-23",
+        "Latitude": 36.8864,
+        "Longitude": 30.6793,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-23",
+        "Latitude": 36.8864,
+        "Longitude": 30.6793,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-26\",\"Latitude\":36.8827,\"Longitude\":30.7056,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-11",
+        "Latitude": 36.8888,
+        "Longitude": 30.7076,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-11",
+        "Latitude": 36.8888,
+        "Longitude": 30.7076,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-25\",\"Latitude\":36.8855,\"Longitude\":30.7109,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-11",
+        "Latitude": 36.8888,
+        "Longitude": 30.7076,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-11",
+        "Latitude": 36.8888,
+        "Longitude": 30.7076,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-35\",\"Latitude\":36.8836,\"Longitude\":30.6748,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-23",
+        "Latitude": 36.8864,
+        "Longitude": 30.6793,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-23",
+        "Latitude": 36.8864,
+        "Longitude": 30.6793,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-29\",\"Latitude\":36.8654,\"Longitude\":30.7261,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-18\",\"Latitude\":36.8746,\"Longitude\":30.6521,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-20",
+        "Latitude": 36.8804,
+        "Longitude": 30.6536,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-20",
+        "Latitude": 36.8804,
+        "Longitude": 30.6536,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-5\",\"Latitude\":36.8852,\"Longitude\":30.6686,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-1",
+        "Latitude": 36.8829,
+        "Longitude": 30.6718,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-3",
+        "Latitude": 36.8817,
+        "Longitude": 30.6678,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-35",
+        "Latitude": 36.8836,
+        "Longitude": 30.6748,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-28\",\"Latitude\":36.8726,\"Longitude\":30.7178,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-27",
+        "Latitude": 36.8768,
+        "Longitude": 30.7082,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-29",
+        "Latitude": 36.8654,
+        "Longitude": 30.7261,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-29",
+        "Latitude": 36.8654,
+        "Longitude": 30.7261,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-4\",\"Latitude\":36.8858,\"Longitude\":30.6972,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-9",
+        "Latitude": 36.8894,
+        "Longitude": 30.6891,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-9\",\"Latitude\":36.8894,\"Longitude\":30.6891,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-24",
+        "Latitude": 36.8849,
+        "Longitude": 30.6869,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-10",
+        "Latitude": 36.8854,
+        "Longitude": 30.6927,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-13\",\"Latitude\":36.8522,\"Longitude\":30.7573,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-31",
+        "Latitude": 36.8488,
+        "Longitude": 30.7635,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-31",
+        "Latitude": 36.8488,
+        "Longitude": 30.7635,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-12",
+        "Latitude": 36.8584,
+        "Longitude": 30.7463,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-30",
+        "Latitude": 36.8596,
+        "Longitude": 30.731,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-8\",\"Latitude\":36.8734,\"Longitude\":30.6428,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-22\",\"Latitude\":36.8925,\"Longitude\":30.6625,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-5",
+        "Latitude": 36.8852,
+        "Longitude": 30.6686,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-21\",\"Latitude\":36.8988,\"Longitude\":30.6612,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-22",
+        "Latitude": 36.8925,
+        "Longitude": 30.6625,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-22",
+        "Latitude": 36.8925,
+        "Longitude": 30.6625,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-6",
+        "Latitude": 36.8928,
+        "Longitude": 30.655,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-34\",\"Latitude\":36.8654,\"Longitude\":30.6438,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-33",
+        "Latitude": 36.8699,
+        "Longitude": 30.6506,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-14",
+        "Latitude": 36.8658,
+        "Longitude": 30.6338,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-11\",\"Latitude\":36.8888,\"Longitude\":30.7076,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-4",
+        "Latitude": 36.8858,
+        "Longitude": 30.6972,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-14\",\"Latitude\":36.8658,\"Longitude\":30.6338,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-32",
+        "Latitude": 36.8583,
+        "Longitude": 30.6309,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-32",
+        "Latitude": 36.8583,
+        "Longitude": 30.6309,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-34",
+        "Latitude": 36.8654,
+        "Longitude": 30.6438,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-8",
+        "Latitude": 36.8734,
+        "Longitude": 30.6428,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-20\",\"Latitude\":36.8804,\"Longitude\":30.6536,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-7",
+        "Latitude": 36.8793,
+        "Longitude": 30.6604,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-19",
+        "Latitude": 36.8756,
+        "Longitude": 30.6576,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-18",
+        "Latitude": 36.8746,
+        "Longitude": 30.6521,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-6\",\"Latitude\":36.8928,\"Longitude\":30.655,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-22",
+        "Latitude": 36.8925,
+        "Longitude": 30.6625,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-22",
+        "Latitude": 36.8925,
+        "Longitude": 30.6625,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-21",
+        "Latitude": 36.8988,
+        "Longitude": 30.6612,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-2",
+        "Latitude": 36.8981,
+        "Longitude": 30.6477,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANT-27\",\"Latitude\":36.8768,\"Longitude\":30.7082,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-26",
+        "Latitude": 36.8827,
+        "Longitude": 30.7056,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANT-28",
+        "Latitude": 36.8726,
+        "Longitude": 30.7178,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANT-25",
+        "Latitude": 36.8855,
+        "Longitude": 30.7109,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-15\",\"Latitude\":39.911,\"Longitude\":32.8468,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-18",
+        "Latitude": 39.9085,
+        "Longitude": 32.8405,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-18",
+        "Latitude": 39.9085,
+        "Longitude": 32.8405,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-14",
+        "Latitude": 39.9029,
+        "Longitude": 32.8468,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-14",
+        "Latitude": 39.9029,
+        "Longitude": 32.8468,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-30\",\"Latitude\":39.92,\"Longitude\":32.8455,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-29\",\"Latitude\":39.9292,\"Longitude\":32.8395,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-24\",\"Latitude\":39.95,\"Longitude\":32.85,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-35",
+        "Latitude": 39.9483,
+        "Longitude": 32.8391,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-35",
+        "Latitude": 39.9483,
+        "Longitude": 32.8391,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-25",
+        "Latitude": 39.953,
+        "Longitude": 32.8608,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-25",
+        "Latitude": 39.953,
+        "Longitude": 32.8608,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-6\",\"Latitude\":39.9461,\"Longitude\":32.8704,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-25",
+        "Latitude": 39.953,
+        "Longitude": 32.8608,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-25",
+        "Latitude": 39.953,
+        "Longitude": 32.8608,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-1\",\"Latitude\":39.9399,\"Longitude\":32.8462,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-35\",\"Latitude\":39.9483,\"Longitude\":32.8391,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-8",
+        "Latitude": 39.9403,
+        "Longitude": 32.8398,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-8",
+        "Latitude": 39.9403,
+        "Longitude": 32.8398,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-24",
+        "Latitude": 39.95,
+        "Longitude": 32.85,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-24",
+        "Latitude": 39.95,
+        "Longitude": 32.85,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-27\",\"Latitude\":39.9124,\"Longitude\":32.853,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-22\",\"Latitude\":39.9116,\"Longitude\":32.8654,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-33",
+        "Latitude": 39.9096,
+        "Longitude": 32.8711,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-33",
+        "Latitude": 39.9096,
+        "Longitude": 32.8711,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-33\",\"Latitude\":39.9096,\"Longitude\":32.8711,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-18\",\"Latitude\":39.9085,\"Longitude\":32.8405,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-14",
+        "Latitude": 39.9029,
+        "Longitude": 32.8468,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-14",
+        "Latitude": 39.9029,
+        "Longitude": 32.8468,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-13\",\"Latitude\":39.9386,\"Longitude\":32.8558,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-34\",\"Latitude\":39.9172,\"Longitude\":32.8608,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-20\",\"Latitude\":39.9172,\"Longitude\":32.8314,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-19\",\"Latitude\":39.9208,\"Longitude\":32.8296,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-20",
+        "Latitude": 39.9172,
+        "Longitude": 32.8314,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-20",
+        "Latitude": 39.9172,
+        "Longitude": 32.8314,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-11\",\"Latitude\":39.9224,\"Longitude\":32.8423,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-30",
+        "Latitude": 39.92,
+        "Longitude": 32.8455,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-30",
+        "Latitude": 39.92,
+        "Longitude": 32.8455,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-2\",\"Latitude\":39.925,\"Longitude\":32.825,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-23",
+        "Latitude": 39.9336,
+        "Longitude": 32.8229,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-23",
+        "Latitude": 39.9336,
+        "Longitude": 32.8229,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-20",
+        "Latitude": 39.9172,
+        "Longitude": 32.8314,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-20",
+        "Latitude": 39.9172,
+        "Longitude": 32.8314,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-8\",\"Latitude\":39.9403,\"Longitude\":32.8398,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-35",
+        "Latitude": 39.9483,
+        "Longitude": 32.8391,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-35",
+        "Latitude": 39.9483,
+        "Longitude": 32.8391,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-31\",\"Latitude\":39.9256,\"Longitude\":32.8818,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-32",
+        "Latitude": 39.9288,
+        "Longitude": 32.8818,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-32",
+        "Latitude": 39.9288,
+        "Longitude": 32.8818,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-21",
+        "Latitude": 39.9223,
+        "Longitude": 32.8878,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-21",
+        "Latitude": 39.9223,
+        "Longitude": 32.8878,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-25\",\"Latitude\":39.953,\"Longitude\":32.8608,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-24",
+        "Latitude": 39.95,
+        "Longitude": 32.85,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-24",
+        "Latitude": 39.95,
+        "Longitude": 32.85,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-28\",\"Latitude\":39.9372,\"Longitude\":32.8752,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-14\",\"Latitude\":39.9029,\"Longitude\":32.8468,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-18",
+        "Latitude": 39.9085,
+        "Longitude": 32.8405,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-18",
+        "Latitude": 39.9085,
+        "Longitude": 32.8405,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-15",
+        "Latitude": 39.911,
+        "Longitude": 32.8468,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-27",
+        "Latitude": 39.9124,
+        "Longitude": 32.853,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-32\",\"Latitude\":39.9288,\"Longitude\":32.8818,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-31",
+        "Latitude": 39.9256,
+        "Longitude": 32.8818,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-31",
+        "Latitude": 39.9256,
+        "Longitude": 32.8818,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-21",
+        "Latitude": 39.9223,
+        "Longitude": 32.8878,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-21",
+        "Latitude": 39.9223,
+        "Longitude": 32.8878,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-10\",\"Latitude\":39.9277,\"Longitude\":32.8395,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-11",
+        "Latitude": 39.9224,
+        "Longitude": 32.8423,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-9\",\"Latitude\":39.9244,\"Longitude\":32.8685,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-26",
+        "Latitude": 39.9192,
+        "Longitude": 32.8613,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-21\",\"Latitude\":39.9223,\"Longitude\":32.8878,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-31",
+        "Latitude": 39.9256,
+        "Longitude": 32.8818,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-31",
+        "Latitude": 39.9256,
+        "Longitude": 32.8818,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-32",
+        "Latitude": 39.9288,
+        "Longitude": 32.8818,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-32",
+        "Latitude": 39.9288,
+        "Longitude": 32.8818,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-12\",\"Latitude\":39.9278,\"Longitude\":32.8538,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-17",
+        "Latitude": 39.9283,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-7\",\"Latitude\":39.9409,\"Longitude\":32.8676,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-6",
+        "Latitude": 39.9461,
+        "Longitude": 32.8704,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-4",
+        "Latitude": 39.9331,
+        "Longitude": 32.8678,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-17\",\"Latitude\":39.9283,\"Longitude\":32.8496,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-12",
+        "Latitude": 39.9278,
+        "Longitude": 32.8538,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-12",
+        "Latitude": 39.9278,
+        "Longitude": 32.8538,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-10",
+        "Latitude": 39.9277,
+        "Longitude": 32.8395,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-3\",\"Latitude\":39.9362,\"Longitude\":32.8496,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-4\",\"Latitude\":39.9331,\"Longitude\":32.8678,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-28",
+        "Latitude": 39.9372,
+        "Longitude": 32.8752,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-7",
+        "Latitude": 39.9409,
+        "Longitude": 32.8676,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-26\",\"Latitude\":39.9192,\"Longitude\":32.8613,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-34",
+        "Latitude": 39.9172,
+        "Longitude": 32.8608,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-9",
+        "Latitude": 39.9244,
+        "Longitude": 32.8685,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-22",
+        "Latitude": 39.9116,
+        "Longitude": 32.8654,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-16\",\"Latitude\":39.9377,\"Longitude\":32.8517,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-3",
+        "Latitude": 39.9362,
+        "Longitude": 32.8496,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-5",
+        "Latitude": 39.9415,
+        "Longitude": 32.8513,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-5\",\"Latitude\":39.9415,\"Longitude\":32.8513,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-16",
+        "Latitude": 39.9377,
+        "Longitude": 32.8517,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-1",
+        "Latitude": 39.9399,
+        "Longitude": 32.8462,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-13",
+        "Latitude": 39.9386,
+        "Longitude": 32.8558,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-ANK-23\",\"Latitude\":39.9336,\"Longitude\":32.8229,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-ANK-2",
+        "Latitude": 39.925,
+        "Longitude": 32.825,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-29",
+        "Latitude": 39.9292,
+        "Longitude": 32.8395,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-ANK-19",
+        "Latitude": 39.9208,
+        "Longitude": 32.8296,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-8\",\"Latitude\":38.4296,\"Longitude\":27.143,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-14",
+        "Latitude": 38.429,
+        "Longitude": 27.1357,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-14",
+        "Latitude": 38.429,
+        "Longitude": 27.1357,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-31\",\"Latitude\":38.4576,\"Longitude\":27.092,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-32",
+        "Latitude": 38.4658,
+        "Longitude": 27.0828,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-32",
+        "Latitude": 38.4658,
+        "Longitude": 27.0828,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-24\",\"Latitude\":38.4522,\"Longitude\":27.1114,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-4",
+        "Latitude": 38.4563,
+        "Longitude": 27.1199,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-4",
+        "Latitude": 38.4563,
+        "Longitude": 27.1199,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-26\",\"Latitude\":38.4683,\"Longitude\":27.1374,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-33\",\"Latitude\":38.4544,\"Longitude\":27.1029,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-31",
+        "Latitude": 38.4576,
+        "Longitude": 27.092,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-31",
+        "Latitude": 38.4576,
+        "Longitude": 27.092,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-17\",\"Latitude\":38.4559,\"Longitude\":27.1792,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-34",
+        "Latitude": 38.4486,
+        "Longitude": 27.1778,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-34",
+        "Latitude": 38.4486,
+        "Longitude": 27.1778,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-4\",\"Latitude\":38.4563,\"Longitude\":27.1199,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-9\",\"Latitude\":38.4102,\"Longitude\":27.1305,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-15\",\"Latitude\":38.4154,\"Longitude\":27.1412,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-10",
+        "Latitude": 38.4022,
+        "Longitude": 27.1467,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-10",
+        "Latitude": 38.4022,
+        "Longitude": 27.1467,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-27\",\"Latitude\":38.4767,\"Longitude\":27.1391,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-14\",\"Latitude\":38.429,\"Longitude\":27.1357,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-5\",\"Latitude\":38.4597,\"Longitude\":27.1106,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-24",
+        "Latitude": 38.4522,
+        "Longitude": 27.1114,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-10\",\"Latitude\":38.4022,\"Longitude\":27.1467,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-22\",\"Latitude\":38.4783,\"Longitude\":27.1632,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-32\",\"Latitude\":38.4658,\"Longitude\":27.0828,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-31",
+        "Latitude": 38.4576,
+        "Longitude": 27.092,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-31",
+        "Latitude": 38.4576,
+        "Longitude": 27.092,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-33",
+        "Latitude": 38.4544,
+        "Longitude": 27.1029,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-2\",\"Latitude\":38.4029,\"Longitude\":27.1157,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-13",
+        "Latitude": 38.3921,
+        "Longitude": 27.1277,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-13",
+        "Latitude": 38.3921,
+        "Longitude": 27.1277,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-11\",\"Latitude\":38.4258,\"Longitude\":27.1447,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-14",
+        "Latitude": 38.429,
+        "Longitude": 27.1357,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-14",
+        "Latitude": 38.429,
+        "Longitude": 27.1357,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-15",
+        "Latitude": 38.4154,
+        "Longitude": 27.1412,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-28\",\"Latitude\":38.483,\"Longitude\":27.1206,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-12\",\"Latitude\":38.3984,\"Longitude\":27.1266,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-13",
+        "Latitude": 38.3921,
+        "Longitude": 27.1277,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-13",
+        "Latitude": 38.3921,
+        "Longitude": 27.1277,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-9",
+        "Latitude": 38.4102,
+        "Longitude": 27.1305,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-1\",\"Latitude\":38.4729,\"Longitude\":27.1574,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-22",
+        "Latitude": 38.4783,
+        "Longitude": 27.1632,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-22",
+        "Latitude": 38.4783,
+        "Longitude": 27.1632,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-29\",\"Latitude\":38.471,\"Longitude\":27.1281,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-30",
+        "Latitude": 38.463,
+        "Longitude": 27.1309,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-27",
+        "Latitude": 38.4767,
+        "Longitude": 27.1391,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-30\",\"Latitude\":38.463,\"Longitude\":27.1309,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-26",
+        "Latitude": 38.4683,
+        "Longitude": 27.1374,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-29",
+        "Latitude": 38.471,
+        "Longitude": 27.1281,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-4",
+        "Latitude": 38.4563,
+        "Longitude": 27.1199,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-4",
+        "Latitude": 38.4563,
+        "Longitude": 27.1199,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-20\",\"Latitude\":38.458,\"Longitude\":27.188,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-16\",\"Latitude\":38.4375,\"Longitude\":27.1597,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-8",
+        "Latitude": 38.4296,
+        "Longitude": 27.143,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-11",
+        "Latitude": 38.4258,
+        "Longitude": 27.1447,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-34",
+        "Latitude": 38.4486,
+        "Longitude": 27.1778,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-34",
+        "Latitude": 38.4486,
+        "Longitude": 27.1778,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-19\",\"Latitude\":38.4642,\"Longitude\":27.1945,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-18\",\"Latitude\":38.4564,\"Longitude\":27.1962,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-7\",\"Latitude\":38.474,\"Longitude\":27.1007,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-32",
+        "Latitude": 38.4658,
+        "Longitude": 27.0828,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-32",
+        "Latitude": 38.4658,
+        "Longitude": 27.0828,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-34\",\"Latitude\":38.4486,\"Longitude\":27.1778,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-17",
+        "Latitude": 38.4559,
+        "Longitude": 27.1792,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-18",
+        "Latitude": 38.4564,
+        "Longitude": 27.1962,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-6\",\"Latitude\":38.479,\"Longitude\":27.1087,\"IsDc\":false}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-28",
+        "Latitude": 38.483,
+        "Longitude": 27.1206,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-28",
+        "Latitude": 38.483,
+        "Longitude": 27.1206,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-25",
+        "Latitude": 38.4668,
+        "Longitude": 27.1093,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-3\",\"Latitude\":38.4682,\"Longitude\":27.1808,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-19",
+        "Latitude": 38.4642,
+        "Longitude": 27.1945,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-20",
+        "Latitude": 38.458,
+        "Longitude": 27.188,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-23\",\"Latitude\":38.4648,\"Longitude\":27.1642,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-1",
+        "Latitude": 38.4729,
+        "Longitude": 27.1574,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-21",
+        "Latitude": 38.4719,
+        "Longitude": 27.1734,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-25\",\"Latitude\":38.4668,\"Longitude\":27.1093,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-5",
+        "Latitude": 38.4597,
+        "Longitude": 27.1106,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-7",
+        "Latitude": 38.474,
+        "Longitude": 27.1007,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-6",
+        "Latitude": 38.479,
+        "Longitude": 27.1087,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-21\",\"Latitude\":38.4719,\"Longitude\":27.1734,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-3",
+        "Latitude": 38.4682,
+        "Longitude": 27.1808,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "destination": {
+        "Barcode": "CP-IZM-23",
+        "Latitude": 38.4648,
+        "Longitude": 27.1642,
+        "IsDc": true
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-22",
+        "Latitude": 38.4783,
+        "Longitude": 27.1632,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-22",
+        "Latitude": 38.4783,
+        "Longitude": 27.1632,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ],
+  "{\"Barcode\":\"CP-IZM-13\",\"Latitude\":38.3921,\"Longitude\":27.1277,\"IsDc\":true}": [
+    {
+      "to": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-12",
+        "Latitude": 38.3984,
+        "Longitude": 27.1266,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-2",
+        "Latitude": 38.4029,
+        "Longitude": 27.1157,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    },
+    {
+      "to": {
+        "Barcode": "CP-IZM-10",
+        "Latitude": 38.4022,
+        "Longitude": 27.1467,
+        "IsDc": false
+      },
+      "destination": {
+        "Barcode": "CP-IZM-10",
+        "Latitude": 38.4022,
+        "Longitude": 27.1467,
+        "IsDc": false
+      },
+      "duration": "10675199.02:48:05.4775807",
+      "distanceInMeters": 1.7976931348623157e+308
+    }
+  ]
+}

@@ -20,9 +20,10 @@ public class GoogleRoutesService(
     public async Task<DecodedRoute> GetRoutesAsync(
         LatLng origin,
         LatLng destination,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
     {
-        var response = await _apiService.GetComputeRoutesResponseAsync(origin, destination, cancellationToken);
+        var response = await _apiService.GetComputeRoutesResponseAsync(origin, destination, trafficAwareness, cancellationToken);
         var route = response.Routes.Single();
 
         return new DecodedRoute(
@@ -32,9 +33,13 @@ public class GoogleRoutesService(
             );
     }
 
-    public async Task<(TimeSpan Duration, double DistanceMeters)> GetDurationAndDistanceOnlyAsync(LatLng origin, LatLng destination, CancellationToken cancellationToken = default)
+    public async Task<(TimeSpan Duration, double DistanceMeters)> GetDurationAndDistanceOnlyAsync(
+        LatLng origin,
+        LatLng destination,
+        TrafficAwareness trafficAwareness,
+        CancellationToken cancellationToken = default)
     {
-        var response = await _apiService.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination, cancellationToken);
+        var response = await _apiService.GetComputeDurationAndDistanceOnlyResponseAsync(origin, destination, trafficAwareness, cancellationToken);
         var durationAndDistanceOnlyRoute = response.Routes.Single();
 
         return (durationAndDistanceOnlyRoute.Duration.ToTimeSpan(), durationAndDistanceOnlyRoute.DistanceMeters);
@@ -44,10 +49,11 @@ public class GoogleRoutesService(
         LatLng origin,
         LatLng destination,
         ICollection<LatLng> intermediateWaypoints,
+        TrafficAwareness trafficAwareness,
         CancellationToken cancellationToken = default)
     {
 
-        var response = await _apiService.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, cancellationToken);
+        var response = await _apiService.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, trafficAwareness, cancellationToken);
 
         return new RoutesWithIntermediateWayPoints(
             response

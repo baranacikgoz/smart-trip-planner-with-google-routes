@@ -5,6 +5,7 @@ public static class GoogleRoutesConstants
     public static class RoutingPreferences
     {
         public const string TrafficAware = "TRAFFIC_AWARE";
+        public const string NonTrafficAware = "TRAFFIC_UNAWARE";
     }
 
     public static class TravelModes

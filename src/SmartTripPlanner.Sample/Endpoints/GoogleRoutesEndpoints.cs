@@ -20,7 +20,7 @@ public static class GoogleRoutesEndpoints
         [FromServices] IRoutesService routesService
     )
     {
-        return await routesService.GetRoutesAsync(request.Origin, request.Destination);
+        return await routesService.GetRoutesAsync(request.Origin, request.Destination, TrafficAwareness.TrafficAware);
     }
 
     public sealed record RoutesWithIntermediateWaypointsRequest(LatLng Origin, LatLng Destination, ICollection<LatLng> IntermediateWaypoints);
@@ -32,6 +32,7 @@ public static class GoogleRoutesEndpoints
         return await routesService.GetRoutesWithIntermediateWaypointsAsync(
             request.Origin,
             request.Destination,
-            request.IntermediateWaypoints);
+            request.IntermediateWaypoints,
+            TrafficAwareness.TrafficAware);
     }
 }

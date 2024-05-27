@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Accord.MachineLearning" />
+    <PackageReference Include="Microsoft.ML" />
     <PackageReference Include="Scrutor" />
   </ItemGroup>
 

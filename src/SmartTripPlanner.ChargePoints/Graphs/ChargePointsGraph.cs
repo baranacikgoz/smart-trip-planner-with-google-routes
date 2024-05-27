@@ -17,8 +17,8 @@ public class ChargePointsGraph : GraphBase<ChargePoint, ChargePointBarcode, Way>
 
     private Dictionary<ChargePoint, List<Way>> _adjacencyDict = [];
 
-    public override ValueTask<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync()
-        => new(_adjacencyDict);
+    public override async Task<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync()
+        => await Task.FromResult(_adjacencyDict);
 
     public override async Task EnsureInitializedAsync()
     {
@@ -50,9 +50,9 @@ public class ChargePointsGraph : GraphBase<ChargePoint, ChargePointBarcode, Way>
         }
     }
 
-    public override ValueTask ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict)
+    public override async Task ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict)
     {
         _adjacencyDict = adjacencyDict;
-        return new();
+        await Task.CompletedTask;
     }
 }

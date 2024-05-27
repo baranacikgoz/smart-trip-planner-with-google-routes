@@ -25,21 +25,20 @@ public static class Setup
                                                 decoree,
                                                 sp.GetRequiredService<IChargePointGraphCache>(),
                                                 cacheKey: nameof(ChargePointsGraph)))
-               .DecorateWith((decoree, sp) => new NeighbourChargePointsGraph(
-                                                decoree,
-                                                numberOfNeighboursPerChargePoint: 3,
-                                                sp.GetRequiredService<IVertexDataSource<ChargePoint, ChargePointBarcode>>()))
-               .DecorateWith((decoree, sp) => new CachedChargePointGraph(
-                                                decoree,
-                                                sp.GetRequiredService<IChargePointGraphCache>(),
-                                                cacheKey: nameof(NeighbourChargePointsGraph)))
                .DecorateWith((decoree, sp) => new ChargePointsRealRoutesGraph(
                                                 decoree,
                                                 sp.GetRequiredService<IRoutesService>()))
                .DecorateWith((decoree, sp) => new CachedChargePointGraph(
                                                 decoree,
                                                 sp.GetRequiredService<IChargePointGraphCache>(),
-                                                cacheKey: nameof(ChargePointsRealRoutesGraph)));
+                                                cacheKey: nameof(ChargePointsRealRoutesGraph)))
+               .DecorateWith((decoree, sp) => new NeighbourChargePointsGraph(
+                                                decoree,
+                                                numberOfNeighboursPerChargePoint: 2))
+               .DecorateWith((decoree, sp) => new CachedChargePointGraph(
+                                                decoree,
+                                                sp.GetRequiredService<IChargePointGraphCache>(),
+                                                cacheKey: nameof(NeighbourChargePointsGraph)));
 
         return builder;
     }
