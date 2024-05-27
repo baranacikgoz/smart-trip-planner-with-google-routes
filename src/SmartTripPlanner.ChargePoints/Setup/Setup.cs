@@ -34,7 +34,7 @@ public static class Setup
                                                 cacheKey: nameof(ChargePointsRealRoutesGraph)))
                .DecorateWith((decoree, sp) => new NeighbourChargePointsGraph(
                                                 decoree,
-                                                numberOfNeighboursPerChargePoint: 2))
+                                                numberOfNeighboursPerChargePoint: 4))
                .DecorateWith((decoree, sp) => new CachedChargePointGraph(
                                                 decoree,
                                                 sp.GetRequiredService<IChargePointGraphCache>(),

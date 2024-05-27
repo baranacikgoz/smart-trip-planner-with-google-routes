@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Xml.Linq;
 using SmartTripPlanner.Core.Cache;
 using SmartTripPlanner.Core.JsonConverters;
 
@@ -29,41 +30,38 @@ public class CachedGraph<TVertex, TVertexId, TEdge> : IGraph<TVertex, TVertexId,
     }
 
     public async Task<Dictionary<TVertex, List<TEdge>>> GetAdjacencyDictAsync()
-        => await _cache.GetOrSetAsync(
+        => await _cache.GetAsync(
                             _cacheKey,
-                            async () => await _decoree.GetAdjacencyDictAsync(),
-                            serializerOptions: _serializerOptions);
-
-    public async Task ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict)
-    {
-        await _decoree.ReconstructFrom(adjacencyDict);
-        await RefreshCacheAsync();
-    }
+                             serializerOptions: _serializerOptions) ?? throw new InvalidOperationException("Not found in cache.");
 
     public async Task EnsureInitializedAsync()
     {
         if (await _cache.GetAsync(_cacheKey, serializerOptions: _serializerOptions) is null)
         {
             await _decoree.EnsureInitializedAsync();
-            await RefreshCacheAsync();
+            var decoreeGraph = await _decoree.GetAdjacencyDictAsync();
+            await _cache.SetAsync(_cacheKey, decoreeGraph);
         }
+    }
+
+    public async Task ReconstructFrom(Dictionary<TVertex, List<TEdge>> adjacencyDict)
+    {
+        await _cache.SetAsync(_cacheKey, adjacencyDict);
     }
 
     public async Task AddNodeAsync(TVertex node)
     {
-        await _decoree.AddNodeAsync(node);
-        await RefreshCacheAsync();
+        var graph = await GetAdjacencyDictAsync();
+        graph.TryAdd(node, []);
+        await _cache.SetAsync(_cacheKey, graph);
     }
     public async Task AddEdgeAsync(TVertex from, TEdge edge)
     {
-        await _decoree.AddEdgeAsync(from, edge);
-        await RefreshCacheAsync();
-    }
+        var graph = await GetAdjacencyDictAsync();
+        graph.TryAdd(from, []);
+        graph[from].Add(edge);
 
-    private async Task RefreshCacheAsync()
-        => await _cache.SetAsync(
-                            cacheKey: _cacheKey,
-                            func: async () => await _decoree.GetAdjacencyDictAsync(),
-                            serializerOptions: _serializerOptions);
+        await _cache.SetAsync(_cacheKey, graph);
+    }
 }
 

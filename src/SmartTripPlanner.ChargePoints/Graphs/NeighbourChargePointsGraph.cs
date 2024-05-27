@@ -22,11 +22,15 @@ public class NeighbourChargePointsGraph : IChargePointGraph
         _numberOfNeighboursPerChargePoint = numberOfNeighboursPerChargePoint;
     }
 
+    private Dictionary<ChargePoint, List<Way>>? _adjDict;
     public Task<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync()
-        => _decoree.GetAdjacencyDictAsync();
+        => Task.FromResult(_adjDict ?? throw new InvalidOperationException("Not initialized yet."));
 
     public Task ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict)
-        => _decoree.ReconstructFrom(adjacencyDict);
+    {
+        _adjDict = adjacencyDict;
+        return Task.CompletedTask;
+    }
 
     public Task AddEdgeAsync(ChargePoint from, Way edge) => _decoree.AddEdgeAsync(from, edge);
 
@@ -35,26 +39,27 @@ public class NeighbourChargePointsGraph : IChargePointGraph
     public async Task EnsureInitializedAsync()
     {
         await _decoree.EnsureInitializedAsync();
+        _adjDict = await _decoree.GetAdjacencyDictAsync();
         await ReconstructWithNeighbourChargePointsOnly();
     }
 
     private async Task ReconstructWithNeighbourChargePointsOnly()
     {
-        var graph = await _decoree.GetAdjacencyDictAsync();
-        var chargePoints = graph.Keys.ToList();
+        var oldGraph = await GetAdjacencyDictAsync();
+        var chargePoints = oldGraph.Keys.ToList();
 
         var numChargePoints = chargePoints.Count;
         var initialNumClusters = Math.Max(1, numChargePoints / _numberOfNeighboursPerChargePoint);
 
         // Cluster the charge points initially
-        var clusteredChargePoints = PerformClustering(chargePoints, graph, initialNumClusters);
+        var clusteredChargePoints = PerformClustering(chargePoints, oldGraph, initialNumClusters);
 
         var newAdjacencyDict = new Dictionary<ChargePoint, List<Way>>();
 
         // Connect within clusters
         foreach (var cluster in clusteredChargePoints)
         {
-            ConnectWithinCluster(cluster, newAdjacencyDict);
+            ConnectWithinCluster(cluster, oldGraph, newAdjacencyDict);
         }
 
         // Perform hierarchical clustering until a single cluster remains
@@ -66,16 +71,16 @@ public class NeighbourChargePointsGraph : IChargePointGraph
 
             clusteredChargePoints = PerformClustering(
                                         clusterCenters,
-                                        graph,
+                                        oldGraph,
                                         Math.Max(1, clusteredChargePoints.Count / _numberOfNeighboursPerChargePoint));
 
             foreach (var cluster in clusteredChargePoints)
             {
-                ConnectWithinCluster(cluster, newAdjacencyDict);
+                ConnectWithinCluster(cluster, oldGraph, newAdjacencyDict);
             }
         }
 
-        await _decoree.ReconstructFrom(newAdjacencyDict);
+        await ReconstructFrom(newAdjacencyDict);
     }
 
     private static List<List<ChargePoint>> PerformClustering(List<ChargePoint> chargePoints, Dictionary<ChargePoint, List<Way>> graph, int numClusters)
@@ -102,7 +107,7 @@ public class NeighbourChargePointsGraph : IChargePointGraph
         return clusteredChargePoints;
     }
 
-    private static void ConnectWithinCluster(List<ChargePoint> cluster, Dictionary<ChargePoint, List<Way>> newAdjacencyDict)
+    private static void ConnectWithinCluster(List<ChargePoint> cluster, Dictionary<ChargePoint, List<Way>> oldGraph, Dictionary<ChargePoint, List<Way>> newAdjacencyDict)
     {
         foreach (var from in cluster)
         {
@@ -113,22 +118,14 @@ public class NeighbourChargePointsGraph : IChargePointGraph
                     continue;
                 }
 
-                var edge = newAdjacencyDict.ContainsKey(from) ? newAdjacencyDict[from].Find(e => e.To.Equals(to)) : null;
-                var distance = edge != null ? edge.DistanceInMeters : double.MaxValue;
-                var duration = edge != null ? edge.Duration : TimeSpan.MaxValue;
-
+#pragma warning disable CA1854 // Prefer the 'IDictionary.TryGetValue(TKey, out TValue)' method
                 if (!newAdjacencyDict.ContainsKey(from))
                 {
-                    newAdjacencyDict[from] = new List<Way>();
+                    newAdjacencyDict.Add(from, []);
                 }
+#pragma warning restore CA1854 // Prefer the 'IDictionary.TryGetValue(TKey, out TValue)' method
 
-                if (!newAdjacencyDict.ContainsKey(to))
-                {
-                    newAdjacencyDict[to] = new List<Way>();
-                }
-
-                newAdjacencyDict[from].Add(new Way(to, duration, distance));
-                newAdjacencyDict[to].Add(new Way(from, duration, distance));
+                newAdjacencyDict[from].Add(oldGraph[from].Find(e => e.To.Equals(to)));
             }
         }
     }

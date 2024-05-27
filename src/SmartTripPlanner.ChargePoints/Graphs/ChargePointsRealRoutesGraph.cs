@@ -16,20 +16,27 @@ public class ChargePointsRealRoutesGraph : IChargePointGraph
         _routesService = routesService;
     }
 
-    public Task<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync() => _decoree.GetAdjacencyDictAsync();
-    public Task ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict) => _decoree.ReconstructFrom(adjacencyDict);
+    private Dictionary<ChargePoint, List<Way>>? _adjDict;
+    public Task<Dictionary<ChargePoint, List<Way>>> GetAdjacencyDictAsync() => Task.FromResult(_adjDict ?? throw new InvalidOperationException("Not initialized yet."));
+    public Task ReconstructFrom(Dictionary<ChargePoint, List<Way>> adjacencyDict)
+    {
+        _adjDict = adjacencyDict;
+        return Task.CompletedTask;
+    }
+
     public Task AddEdgeAsync(ChargePoint from, Way edge) => _decoree.AddEdgeAsync(from, edge);
     public Task AddNodeAsync(ChargePoint node) => _decoree.AddNodeAsync(node);
 
     public async Task EnsureInitializedAsync()
     {
         await _decoree.EnsureInitializedAsync();
+        _adjDict = await _decoree.GetAdjacencyDictAsync();
         await ReconstructWithRealRoutesAsync();
     }
 
     private async Task ReconstructWithRealRoutesAsync()
     {
-        var oldGraph = await _decoree.GetAdjacencyDictAsync();
+        var oldGraph = await GetAdjacencyDictAsync();
         var newGraphWithRealRoutes = new Dictionary<ChargePoint, List<Way>>();
 
         using var throttler = new SemaphoreSlim(initialCount: 8); // Limit concurrency otherwise both redis and httpclient throws exceptions
@@ -61,7 +68,7 @@ public class ChargePointsRealRoutesGraph : IChargePointGraph
         }
 
         await Task.WhenAll(tasks);
-        await _decoree.ReconstructFrom(newGraphWithRealRoutes);
+        await ReconstructFrom(newGraphWithRealRoutes);
     }
 
     private async Task<(ChargePoint From, Way Edge)> CalculateNewEdgeWithRealRoute(ChargePoint from, ChargePoint to)
