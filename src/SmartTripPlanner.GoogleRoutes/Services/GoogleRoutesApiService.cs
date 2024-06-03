@@ -4,9 +4,9 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
-using SmartTripPlanner.Core.Routes.Interfaces;
-using SmartTripPlanner.Core.Routes.Models;
-using SmartTripPlanner.Core.Routes.Responses;
+using SmartTripPlanner.Core.Routing.Interfaces;
+using SmartTripPlanner.Core.Routing.Models;
+using SmartTripPlanner.Core.Routing.Responses;
 using SmartTripPlanner.GoogleRoutes.Constants;
 using SmartTripPlanner.GoogleRoutes.Exceptions;
 using SmartTripPlanner.GoogleRoutes.Extensions;
@@ -89,7 +89,10 @@ public class GoogleRoutesApiService(
 
         try
         {
-            await GoogleRoutesException.ThrowIfNotSuccess(response, requestJsonString);
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new GoogleRoutesException("Google Routes API request failed.", requestJsonString, await response.Content.ReadAsStringAsync(cancellationToken));
+            }
         }
         catch (GoogleRoutesException ex)
         {
@@ -97,11 +100,11 @@ public class GoogleRoutesApiService(
             throw;
         }
 
-        var responseJson = await response.Content.ReadAsStringAsync();
-        var deserializedResponse = JsonSerializer.Deserialize<T>(responseJson, _jsonSerializerOptions)
-            ?? throw new GoogleRoutesException("Google Routes API response was empty or invalid.", requestJsonString, responseJson);
-
-        return deserializedResponse;
+        return await JsonSerializer.DeserializeAsync<T>(
+                                        await response.Content.ReadAsStreamAsync(cancellationToken),
+                                        _jsonSerializerOptions,
+                                        cancellationToken)
+               ?? throw new GoogleRoutesException( "Google Routes API response was empty or invalid.", requestJsonString, await response.Content.ReadAsStringAsync(cancellationToken));
     }
 
     private static string RequestToJsonString(
@@ -137,7 +140,7 @@ public class GoogleRoutesApiService(
                 destination = new { location = destination },
                 travelMode,
                 routingPreference,
-                intermediates = intermediateWaypoints
+                intermediates = intermediateWaypoints.Select(iw => new { location = iw }).ToList()
             },
             _jsonSerializerOptions);
         }
@@ -160,8 +163,10 @@ internal static partial class LoggerExtensions
         Message = "Sending request to Google Routes API: {RequestJsonString}")]
     public static partial void LogSendingRequestToGoogleRoutesAPI(this ILogger<GoogleRoutesApiService> logger, string requestJsonString);
 
+#pragma warning disable SYSLIB1006 // Multiple logging methods cannot use the same event id within a class
     [LoggerMessage(
         Level = LogLevel.Error,
         Message = "Google Routes API request failed.")]
+#pragma warning restore SYSLIB1006 // Multiple logging methods cannot use the same event id within a class
     public static partial void LogGoogleRoutesAPIRequestFailed(this ILogger<GoogleRoutesApiService> logger, GoogleRoutesException ex);
 }

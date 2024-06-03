@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using SmartTripPlanner.ChargePoints.Models;
 using SmartTripPlanner.Core.Graph;
-using SmartTripPlanner.Core.Routes.Interfaces;
+using SmartTripPlanner.Core.Routing.Interfaces;
 
 namespace SmartTripPlanner.ChargePoints.Graphs;
 public class ChargePointsRealRoutesGraph : IChargePointGraph

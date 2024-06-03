@@ -1,9 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
-using SmartTripPlanner.Core.Routes.Interfaces;
-using SmartTripPlanner.GoogleRoutes.Constants;
 
 namespace SmartTripPlanner.GoogleRoutes.Extensions;
 internal static class StringExtensions

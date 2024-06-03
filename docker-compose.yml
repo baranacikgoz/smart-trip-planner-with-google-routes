@@ -5,7 +5,7 @@ services:
     image: ${DOCKER_REGISTRY-}smarttripplannersample
     build:
       context: .
-      dockerfile: src/SmartTripPlanner.Sample/Dockerfile
+      dockerfile: samples/SmartTripPlanner.Sample/Dockerfile
     env_file:
       - .env
 

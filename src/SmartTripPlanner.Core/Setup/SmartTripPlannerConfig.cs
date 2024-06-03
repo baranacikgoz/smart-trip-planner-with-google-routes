@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using SmartTripPlanner.Core.Cache;
+using SmartTripPlanner.Core.DistanceCalculator.Interfaces;
 
 namespace SmartTripPlanner.Core.Setup;
 public class SmartTripPlannerConfig(IServiceCollection Services) : ISmartTripPlannerConfigBuilder
@@ -25,5 +26,7 @@ public class SmartTripPlannerConfig(IServiceCollection Services) : ISmartTripPla
         Services.AddSingleton(typeof(IGraphCache<,,>), typeof(GraphCache<,,>));
         Services.AddSingleton(typeof(ICache<>), typeof(Cache<>));
         Services.AddSingleton<ICache, Cache.Cache>();
+
+        Services.AddSingleton<ICrowFlightDistanceCalculator, DistanceCalculator.Services.CrowFlightDistanceCalculator>();
     }
 }

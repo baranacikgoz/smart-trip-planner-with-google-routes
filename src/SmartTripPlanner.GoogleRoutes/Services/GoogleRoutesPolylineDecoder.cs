@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Logging;
-using SmartTripPlanner.Core.Routes.Interfaces;
-using SmartTripPlanner.Core.Routes.Models;
+using SmartTripPlanner.Core.Routing.Interfaces;
+using SmartTripPlanner.Core.Routing.Models;
 
 namespace SmartTripPlanner.GoogleRoutes;
 

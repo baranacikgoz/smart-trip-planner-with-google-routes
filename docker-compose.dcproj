@@ -4,14 +4,12 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>aa2e7286-e37f-4f39-90c6-4500580c9684</ProjectGuid>
+    <ProjectGuid>e5187258-a88b-4cc6-95ee-6d2876a25a86</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>smarttripplanner.sample</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
-    <None Include=".env" />
-    <None Include=".example.env" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>

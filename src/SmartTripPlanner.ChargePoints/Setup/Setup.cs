@@ -2,12 +2,12 @@ using Microsoft.Extensions.DependencyInjection;
 using SmartTripPlanner.ChargePoints.Cache;
 using SmartTripPlanner.ChargePoints.Graphs;
 using SmartTripPlanner.ChargePoints.Models;
-using SmartTripPlanner.Core.Cache;
-using SmartTripPlanner.Core.DataSource.Interfaces;
-using SmartTripPlanner.Core.Graph;
-using SmartTripPlanner.Core.Routes.Interfaces;
+using SmartTripPlanner.ChargePoints.TripPlanner.Interfaces;
+using SmartTripPlanner.ChargePoints.TripPlanner.Services;
+using SmartTripPlanner.Core.Routing.Interfaces;
 using SmartTripPlanner.Core.Setup;
 using SmartTripPlanner.Core.Setup.GraphSetup;
+using SmartTripPlanner.Core.TripPlanner.Interfaces;
 
 namespace SmartTripPlanner.ChargePoints.Setup;
 
@@ -31,14 +31,12 @@ public static class Setup
                .DecorateWith((decoree, sp) => new CachedChargePointGraph(
                                                 decoree,
                                                 sp.GetRequiredService<IChargePointGraphCache>(),
-                                                cacheKey: nameof(ChargePointsRealRoutesGraph)))
-               .DecorateWith((decoree, sp) => new NeighbourChargePointsGraph(
-                                                decoree,
-                                                numberOfNeighboursPerChargePoint: 4))
-               .DecorateWith((decoree, sp) => new CachedChargePointGraph(
-                                                decoree,
-                                                sp.GetRequiredService<IChargePointGraphCache>(),
-                                                cacheKey: nameof(NeighbourChargePointsGraph)));
+                                                cacheKey: nameof(ChargePointsRealRoutesGraph)));
+
+        builder
+            .Services
+                .AddSingleton<ITripPlanner<ChargePoint, ChargePointBarcode, Way>, ChargePointTripPlanner>()
+                .AddSingleton<IChargePointTripPlanner, ChargePointTripPlanner>();
 
         return builder;
     }

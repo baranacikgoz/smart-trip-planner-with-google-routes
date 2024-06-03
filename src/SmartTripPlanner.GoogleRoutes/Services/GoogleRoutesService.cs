@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Net.Http.Json;
 using System.Text;
 using Microsoft.Extensions.Logging;
-using SmartTripPlanner.Core.Routes.Interfaces;
-using SmartTripPlanner.Core.Routes.Models;
-using SmartTripPlanner.Core.Routes.Responses;
+using SmartTripPlanner.Core.Routing.Responses;
 using SmartTripPlanner.GoogleRoutes.Constants;
 using SmartTripPlanner.GoogleRoutes.Exceptions;
 using System.Text.Json;
 using SmartTripPlanner.GoogleRoutes.Extensions;
+using SmartTripPlanner.Core.Routing.Models;
+using SmartTripPlanner.Core.Routing.Interfaces;
 
 namespace SmartTripPlanner.GoogleRoutes.Services;
 public class GoogleRoutesService(
@@ -55,21 +55,28 @@ public class GoogleRoutesService(
 
         var response = await _apiService.GetRoutesWithIntermediateWaypointsResponseAsync(origin, destination, intermediateWaypoints, trafficAwareness, cancellationToken);
 
+        var responseRoutes = response.Routes.Single();
+
         return new RoutesWithIntermediateWayPoints(
-            response
-                .Legs
-                .Select(l => new DecodedLeg(
-                    l.DistanceMeters,
-                    l.Duration.ToTimeSpan(),
-                    l.StaticDuration.ToTimeSpan(),
-                    l.StartLocation,
-                    l.EndLocation,
-                    l.Steps.Select(s => new DecodedStep(
-                                            s.DistanceMeters,
-                                            s.StaticDuration,
-                                            _polylineDecoder.Decode(s.Polyline.EncodedPolyline),
-                                            s.StartLocation,
-                                            s.EndLocation))))
-                .ToList());
+            new DecodedRoutes(
+                DistanceMeters: responseRoutes.DistanceMeters,
+                Duration: responseRoutes.Duration.ToTimeSpan(),
+                StaticDuration: responseRoutes.StaticDuration.ToTimeSpan(),
+                Polyline: responseRoutes.Polyline,
+                Legs: responseRoutes
+                        .Legs
+                        .Select(l => new DecodedLeg(
+                            l.Duration.ToTimeSpan(),
+                            l.StaticDuration.ToTimeSpan(),
+                            l.StartLocation,
+                            l.EndLocation,
+                            l.Polyline,
+                            l.Steps.Select(s => new DecodedStep(
+                                                    s.StaticDuration.ToTimeSpan(),
+                                                    s.Polyline,
+                                                    _polylineDecoder.Decode(s.Polyline.EncodedPolyline),
+                                                    s.StartLocation,
+                                                    s.EndLocation)))),
+                 Locations: _polylineDecoder.Decode(responseRoutes.Polyline.EncodedPolyline)));
     }
 }

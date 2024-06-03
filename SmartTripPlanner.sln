@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E1625E82-60F0-49DD-839F-3B059E76C7FD}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		.example.env = .example.env
 		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
@@ -15,15 +16,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64DE3EE1-9D9F-42C9-BAD1-8ADA7A41D9A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.Sample", "src\SmartTripPlanner.Sample\SmartTripPlanner.Sample.csproj", "{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.ChargePoints", "src\SmartTripPlanner.ChargePoints\SmartTripPlanner.ChargePoints.csproj", "{4E4AA922-7C4F-43E5-9D56-19B4E7E403BE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.Core", "src\SmartTripPlanner.Core\SmartTripPlanner.Core.csproj", "{02E6E237-E3E2-44CF-B107-A9593DBBD943}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.GoogleRoutes", "src\SmartTripPlanner.GoogleRoutes\SmartTripPlanner.GoogleRoutes.csproj", "{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AA2E7286-E37F-4F39-90C6-4500580C9684}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AAAE4965-A0F5-4283-ABC0-0F69D40BD69F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.Sample", "samples\SmartTripPlanner.Sample\SmartTripPlanner.Sample.csproj", "{333327B7-8F38-4972-9A80-309A10D45A4A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E5187258-A88B-4CC6-95EE-6D2876A25A86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +34,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E4AA922-7C4F-43E5-9D56-19B4E7E403BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E4AA922-7C4F-43E5-9D56-19B4E7E403BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E4AA922-7C4F-43E5-9D56-19B4E7E403BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,19 +46,23 @@ Global
 		{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C59F1847-510A-4D80-A993-2AB3E8AF4CFD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA2E7286-E37F-4F39-90C6-4500580C9684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA2E7286-E37F-4F39-90C6-4500580C9684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA2E7286-E37F-4F39-90C6-4500580C9684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA2E7286-E37F-4F39-90C6-4500580C9684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333327B7-8F38-4972-9A80-309A10D45A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333327B7-8F38-4972-9A80-309A10D45A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333327B7-8F38-4972-9A80-309A10D45A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333327B7-8F38-4972-9A80-309A10D45A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5187258-A88B-4CC6-95EE-6D2876A25A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5187258-A88B-4CC6-95EE-6D2876A25A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5187258-A88B-4CC6-95EE-6D2876A25A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5187258-A88B-4CC6-95EE-6D2876A25A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C3EC2F6D-0D77-47B9-BCCC-676C330F97B3} = {64DE3EE1-9D9F-42C9-BAD1-8ADA7A41D9A9}
 		{4E4AA922-7C4F-43E5-9D56-19B4E7E403BE} = {64DE3EE1-9D9F-42C9-BAD1-8ADA7A41D9A9}
 		{02E6E237-E3E2-44CF-B107-A9593DBBD943} = {64DE3EE1-9D9F-42C9-BAD1-8ADA7A41D9A9}
 		{C59F1847-510A-4D80-A993-2AB3E8AF4CFD} = {64DE3EE1-9D9F-42C9-BAD1-8ADA7A41D9A9}
+		{333327B7-8F38-4972-9A80-309A10D45A4A} = {AAAE4965-A0F5-4283-ABC0-0F69D40BD69F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EE15DCD-0336-4BE3-8A17-ACB6A9B9FBB0}

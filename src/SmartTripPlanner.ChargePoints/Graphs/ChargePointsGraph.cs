@@ -1,8 +1,6 @@
 using SmartTripPlanner.ChargePoints.Models;
 using SmartTripPlanner.Core.DataSource.Interfaces;
 using SmartTripPlanner.Core.Graph;
-using SmartTripPlanner.Core.Routes.Interfaces;
-using SmartTripPlanner.Core.Routes.Models;
 
 namespace SmartTripPlanner.ChargePoints.Graphs;
 
