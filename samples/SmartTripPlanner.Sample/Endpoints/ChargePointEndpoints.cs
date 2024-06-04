@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using SmartTripPlanner.ChargePoints.Graphs;
 using SmartTripPlanner.ChargePoints.Models;
-using SmartTripPlanner.Sample.Repositories;
+using SmartTripPlanner.API.Repositories;
 
-namespace SmartTripPlanner.Sample.Endpoints;
+namespace SmartTripPlanner.API.Endpoints;
 
 public static class ChargePointEndpoints
 {

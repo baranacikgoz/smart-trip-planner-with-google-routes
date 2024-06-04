@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using SmartTripPlanner.ChargePoints.TripPlanner.Interfaces;
 using SmartTripPlanner.Core.Routing.Models;
 
-namespace SmartTripPlanner.Sample.Endpoints;
+namespace SmartTripPlanner.API.Endpoints;
 
 public static class TripPlannerEndpoints
 {
@@ -13,7 +13,12 @@ public static class TripPlannerEndpoints
         googleRoutesApiGroup.MapPost("plan-trip", PlanTripAsync);
     }
 
-    public sealed record PlanTripRequest(double InitialBatteryPercentage, double BatteryPercentagePer100Km, LatLng Origin, LatLng Destination);
+    public sealed record PlanTripRequest(
+        double InitialBatteryPercentage,
+        double BatteryConsumePercentagePer100Km,
+        double MinBatteryThreshold,
+        LatLng Origin,
+        LatLng Destination);
     private static async Task<RoutesWithIntermediateWayPoints> PlanTripAsync(
         [FromBody] PlanTripRequest request,
         [FromServices] IChargePointTripPlanner tripPlanner,
@@ -22,8 +27,8 @@ public static class TripPlannerEndpoints
     {
         return await tripPlanner.PlanTripAsync(
                                     request.InitialBatteryPercentage,
-                                    request.BatteryPercentagePer100Km,
-                                    minBatteryThreshold: 5,
+                                    request.BatteryConsumePercentagePer100Km,
+                                    minBatteryThreshold: request.MinBatteryThreshold,
                                     request.Origin,
                                     request.Destination,
                                     cancellationToken);

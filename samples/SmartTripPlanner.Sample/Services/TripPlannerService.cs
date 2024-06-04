@@ -1,4 +1,4 @@
-namespace SmartTripPlanner.Sample.Services;
+namespace SmartTripPlanner.API.Services;
 
 public class TripPlannerService
 {

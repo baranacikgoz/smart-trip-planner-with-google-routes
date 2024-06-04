@@ -1,7 +1,7 @@
-using SmartTripPlanner.Sample.Repositories;
+using SmartTripPlanner.API.Repositories;
 using StackExchange.Redis;
 
-namespace SmartTripPlanner.Sample.Services;
+namespace SmartTripPlanner.API.Services;
 
 public static class Setup
 {

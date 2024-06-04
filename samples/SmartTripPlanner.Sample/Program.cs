@@ -1,5 +1,5 @@
-using SmartTripPlanner.Sample.Endpoints;
-using SmartTripPlanner.Sample.Services;
+using SmartTripPlanner.API.Endpoints;
+using SmartTripPlanner.API.Services;
 using SmartTripPlanner.Core.Setup;
 using SmartTripPlanner.GoogleRoutes.Setup;
 using SmartTripPlanner.ChargePoints.Graphs;
@@ -8,7 +8,7 @@ using SmartTripPlanner.Core.Cache;
 using SmartTripPlanner.ChargePoints.Cache;
 using SmartTripPlanner.ChargePoints.Setup;
 using SmartTripPlanner.Core.Graph;
-using SmartTripPlanner.Sample.Repositories;
+using SmartTripPlanner.API.Repositories;
 using SmartTripPlanner.Core.Setup.VertexDataSourceSetup;
 using SmartTripPlanner.Core.JsonConverters;
 
@@ -30,7 +30,7 @@ builder
 builder
     .Services
         .Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(x =>
-        { 
+        {
             x.SerializerOptions.Converters.Add(new StronglyTypedVertexIdJsonConverter<ChargePointBarcode>());
         })
         .AddSmartTripPlanner(x => x.ForChargePoints()

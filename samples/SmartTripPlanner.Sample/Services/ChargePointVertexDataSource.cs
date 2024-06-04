@@ -1,7 +1,7 @@
 using SmartTripPlanner.ChargePoints.Models;
-using SmartTripPlanner.Sample.Repositories;
+using SmartTripPlanner.API.Repositories;
 
-namespace SmartTripPlanner.Sample.Services;
+namespace SmartTripPlanner.API.Services;
 
 public class ChargePointVertexDataSource(
     IChargePointRepository _repository
@@ -9,10 +9,4 @@ public class ChargePointVertexDataSource(
 {
     public async Task<IReadOnlyList<ChargePoint>> GetAllAsync()
         => await Task.Run(() => _repository.GetAll());
-
-    public async Task<ChargePoint?> GetById(ChargePointBarcode id)
-        => await Task.Run(() => _repository.GetByBarcode(id));
-
-    public async Task<IReadOnlyList<ChargePoint>> GetByIds(ICollection<ChargePointBarcode> ids)
-        => await Task.Run(() => _repository.GetByBarcodes(ids));
 }

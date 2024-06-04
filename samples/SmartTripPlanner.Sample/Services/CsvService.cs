@@ -1,6 +1,6 @@
 using Microsoft.VisualBasic.FileIO;
 
-namespace SmartTripPlanner.Sample.Services;
+namespace SmartTripPlanner.API.Services;
 
 public class CsvService
 {

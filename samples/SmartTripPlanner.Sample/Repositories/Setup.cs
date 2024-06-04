@@ -1,4 +1,4 @@
-namespace SmartTripPlanner.Sample.Repositories;
+namespace SmartTripPlanner.API.Repositories;
 
 public static class Setup
 {

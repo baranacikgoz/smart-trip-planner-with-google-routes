@@ -1,8 +1,8 @@
 using System.Globalization;
 using SmartTripPlanner.ChargePoints.Models;
-using SmartTripPlanner.Sample.Services;
+using SmartTripPlanner.API.Services;
 
-namespace SmartTripPlanner.Sample.Repositories;
+namespace SmartTripPlanner.API.Repositories;
 
 // data source is the chargepoints.csv, not db for simplicity
 public class ChargePointCsvRepository(CsvService csvService) : IChargePointRepository

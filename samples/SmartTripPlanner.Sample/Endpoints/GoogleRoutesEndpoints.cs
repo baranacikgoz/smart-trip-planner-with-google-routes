@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using SmartTripPlanner.Core.Routing.Interfaces;
 using SmartTripPlanner.Core.Routing.Models;
 
-namespace SmartTripPlanner.Sample.Endpoints;
+namespace SmartTripPlanner.API.Endpoints;
 
 public static class GoogleRoutesEndpoints
 {

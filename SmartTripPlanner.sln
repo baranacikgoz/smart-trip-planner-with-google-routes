@@ -24,7 +24,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.GoogleRout
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AAAE4965-A0F5-4283-ABC0-0F69D40BD69F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.Sample", "samples\SmartTripPlanner.Sample\SmartTripPlanner.Sample.csproj", "{333327B7-8F38-4972-9A80-309A10D45A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTripPlanner.API", "samples\SmartTripPlanner.Sample\SmartTripPlanner.API.csproj", "{333327B7-8F38-4972-9A80-309A10D45A4A}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E5187258-A88B-4CC6-95EE-6D2876A25A86}"
 EndProject
